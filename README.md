@@ -4,3 +4,6 @@ Min första tanke eller idé är att pilla med PlayWright för det ser ut att va
 
 2023-01-23:
 Arbetat och testat lite i Python med pytest.  
+
+2023-01-23:
+Arbetat och testat lite i Java med JUnit.  
