@@ -1,0 +1,152 @@
+{
+  "id": "638efd2d-3e97-4656-bc69-47ceb42d5bff",
+  "version": "2.0",
+  "name": "First",
+  "url": "https://ecutbildning.se",
+  "tests": [{
+    "id": "f66ffe1d-2972-4c28-9ff5-d97efd254f18",
+    "name": "Mjukvarutestare - ansökan",
+    "commands": [{
+      "id": "0877cc5f-6254-47bd-9de7-25000bb663f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a753e1c3-744a-43d7-b599-0e2ccefca92a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94dda40a-4e34-49fa-8ccc-efabfe35456c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-wrapper > div",
+      "targets": [
+        ["css=#menu-wrapper > div", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098c9999-9b64-41f3-8f7b-e817576f968f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item-19 > .site__links-1",
+      "targets": [
+        ["css=.menu-item-19 > .site__links-1", "css:finder"],
+        ["xpath=//a[contains(text(),'>> Utbildningar')]", "xpath:link"],
+        ["xpath=//ul[@id='ams_nav_menu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/utbildningar/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b26f5f5-6f9e-4b26-8851-ebef7b060d72",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-_sfm_utbildning_category-ve-container",
+      "targets": [
+        ["id=select2-_sfm_utbildning_category-ve-container", "id"],
+        ["css=#select2-_sfm_utbildning_category-ve-container", "css:finder"],
+        ["xpath=//span[@id='select2-_sfm_utbildning_category-ve-container']", "xpath:attributes"],
+        ["xpath=//form[@id='search-filter-form-37']/ul/li[2]/label/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/label/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2548c323-5c7c-47ab-8164-2c90688f0413",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sf-field-post-meta-studieort",
+      "targets": [
+        ["css=.sf-field-post-meta-studieort", "css:finder"],
+        ["xpath=//form[@id='search-filter-form-37']/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//form/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb98adf2-8cc5-41c8-923d-b2c06f87fda1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-container--open .select2-selection",
+      "targets": [
+        ["css=.select2-container--open .select2-selection", "css:finder"],
+        ["xpath=//form[@id='search-filter-form-37']/ul/li[3]/label/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/label/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02bb3c16-d591-4bed-b659-67774d034b27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ams_utbildninger--entry:nth-child(2) .ams_utbildninger--title",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(2) .ams_utbildninger--title", "css:finder"],
+        ["xpath=//div[@id='search-filter-results-37']/div/div[2]/a/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Mjukvarutestare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6aa71f-2162-49b3-9c7b-68d38d53cb12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ansök nu",
+      "targets": [
+        ["linkText=Ansök nu", "linkText"],
+        ["css=.mx-1:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ansök nu')]", "xpath:link"],
+        ["xpath=//a[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/header/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://apply.yh-antagning.se/to/ecu/ht2023?_gl=1*1jdij3k*_ga*MTM3MjMzOTkzLjE2NzU4NTI5ODk.*_ga_GR50KNJ006*MTY3NTg1Mjk4OS4xLjEuMTY3NTg1MzAzOS4wLjAuMA..&_ga=2.117867726.69287406.1675852989-137233993.1675852989&_gac=1.123322873.1675852989.CjwKCAiArY2fBhB9EiwAWqHK6jJZRhKvlKb_4Y11SYwERVu_RbM_jwkgW-qKYFKYXE4MmglzWsOGSBoCMuEQAvD_BwE')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ansök nu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d695ef1a-94e5-4b23-a451-9ee077c129a7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ansök nu",
+      "targets": [
+        ["linkText=Ansök nu", "linkText"],
+        ["css=.mx-1:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ansök nu')]", "xpath:link"],
+        ["xpath=//a[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/header/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://apply.yh-antagning.se/to/ecu/ht2023')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ansök nu')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5467",
+      "windowTimeout": 2000
+    }, {
+      "id": "c2115f3d-1370-420e-98d2-21208f521d15",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5467}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "acbcf3d8-d2d3-4f0a-9d8b-c03a267b95c3",
+    "name": "Namn",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b94f7728-ae88-4204-9313-be1a20c65b16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f66ffe1d-2972-4c28-9ff5-d97efd254f18"]
+  }],
+  "urls": ["https://ecutbildning.se/"],
+  "plugins": []
+}
