@@ -7,3 +7,6 @@ Arbetat och testat lite i Python med pytest.
 
 2023-01-23:
 Arbetat och testat lite i Java med JUnit.  
+
+2023-02-17:
+Arbetat med inlämningsuppgiften och påbörjat att skriva svaren på kontext 1 och 2. 
