@@ -1,0 +1,103 @@
+{
+  "id": "0cf39ec2-b50e-4dc2-89eb-b67017f8ca6a",
+  "version": "2.0",
+  "name": "Selenium-IDE",
+  "url": "https://ecutbildning.se/",
+  "tests": [{
+    "id": "4a149ac0-199b-4892-928e-394684d95b96",
+    "name": "News",
+    "commands": [{
+      "id": "12bed9bd-2cf9-4695-8d8b-98c115b1599a",
+      "comment": "",
+      "command": "open",
+      "target": "https://ecutbildning.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1a5a03f-3324-49f7-a2d3-c4bd74f4bada",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "979x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91027e36-4a02-4ac8-80dd-fd688c72f0a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-wrapper > div",
+      "targets": [
+        ["css=#menu-wrapper > div", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a03bd59-d118-4131-a4b8-1695c11c4a5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item-3775 > .link_dipth_1",
+      "targets": [
+        ["css=.menu-item-3775 > .link_dipth_1", "css:finder"],
+        ["xpath=//ul[@id='ams_nav_menu']/li[8]/i", "xpath:idRelative"],
+        ["xpath=//li[8]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7153f0d0-63bf-4b2a-907b-addff57c13f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nyheter",
+      "targets": [
+        ["linkText=Nyheter", "linkText"],
+        ["css=.menu-item-type-custom > .site__links-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Nyheter')]", "xpath:link"],
+        ["xpath=//ul[@id='ams_nav_menu']/li[8]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/nyheter/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nyheter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f87dbe-56c0-4272-b89f-79407890a4d2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card:nth-child(1) .ams_article_module--title",
+      "targets": [
+        ["css=.card:nth-child(1) .ams_article_module--title", "css:finder"],
+        ["xpath=//div[@id='page']/div[3]/div/div/div[4]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Ansökan är öppen')]", "xpath:innerText"]
+      ],
+      "value": "Ansökan är öppen"
+    }, {
+      "id": "beaf0af0-7369-4bbe-a4b9-3f3c72939232",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .ams_article_module--excerpt",
+      "targets": [
+        ["css=.card:nth-child(1) .ams_article_module--excerpt", "css:finder"],
+        ["xpath=//div[@id='page']/div[3]/div/div/div[4]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nu kan du söka höstens utbildningar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "079d3075-a2c3-4682-b15c-b12e143104eb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.site__h-tag-1",
+      "targets": [],
+      "value": "Ansökan är öppen - utbilda dig inom IT och teknik 2023!"
+    }]
+  }],
+  "suites": [{
+    "id": "6a7c5aa1-8dc3-49b4-a92a-c96368c7ad1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ecutbildning.se/"],
+  "plugins": []
+}
