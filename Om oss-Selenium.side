@@ -1,0 +1,95 @@
+{
+  "id": "0cf39ec2-b50e-4dc2-89eb-b67017f8ca6a",
+  "version": "2.0",
+  "name": "Selenium-IDE",
+  "url": "https://ecutbildning.se/",
+  "tests": [{
+    "id": "e9ca4893-60ec-4bc3-9a2a-95a550dbe643",
+    "name": "Om oss",
+    "commands": [{
+      "id": "75214de8-82fc-4e81-b5d0-85bdb7d4a58a",
+      "comment": "",
+      "command": "open",
+      "target": "https://ecutbildning.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98ec961f-1b44-43de-83cb-d616421be40d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "979x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff74fd22-8f11-4f8e-9892-aa320553f35b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger-icon:nth-child(2)",
+      "targets": [
+        ["css=.hamburger-icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60918880-0764-4b76-b7dc-e725ad703e39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item-3775 > .link_dipth_1",
+      "targets": [
+        ["css=.menu-item-3775 > .link_dipth_1", "css:finder"],
+        ["xpath=//ul[@id='ams_nav_menu']/li[8]/i", "xpath:idRelative"],
+        ["xpath=//li[8]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30dcbeab-57e6-484e-8139-59620ea56736",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Studieorter",
+      "targets": [
+        ["linkText=Studieorter", "linkText"],
+        ["css=.menu-item-6611 > .site__links-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Studieorter')]", "xpath:link"],
+        ["xpath=//ul[@id='ams_nav_menu']/li[8]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/studieorter/')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Studieorter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c17e5fc-b55d-494c-80be-4dc5c9f15fb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(4) > .site__text-color--light",
+      "targets": [
+        ["css=.card:nth-child(4) > .site__text-color--light", "css:finder"],
+        ["xpath=//a[contains(text(),'Malmö')]", "xpath:link"],
+        ["xpath=//div[@id='school_list']/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b90ba75-98ac-4470-9145-0b40cb04c93a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mb-0",
+      "targets": [
+        ["css=.mb-0", "css:finder"],
+        ["xpath=//div[@id='map-canvas']/div/div/div[2]/div[2]/div/div[4]/div/div/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/div/p", "xpath:position"]
+      ],
+      "value": "Östra Kanalgatan 5, 211 41 Malmö"
+    }]
+  }],
+  "suites": [{
+    "id": "6a7c5aa1-8dc3-49b4-a92a-c96368c7ad1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ecutbildning.se/"],
+  "plugins": []
+}
