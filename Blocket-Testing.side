@@ -1,0 +1,62 @@
+{
+  "id": "ac55cb84-ea1d-4452-8481-756ff96001c8",
+  "version": "2.0",
+  "name": "Blocket-Testing",
+  "url": "https://www.blocket.se/",
+  "tests": [{
+    "id": "80655ea9-8ce2-4ebc-963b-533c682a78a8",
+    "name": "About Blocket",
+    "commands": [{
+      "id": "e3b89c8d-94ca-4625-a7a1-eb8b3821b2a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7af2390f-d3b2-43b2-91b2-91d7938a43d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.menu-section:nth-child(4) .menu-section__list-item:nth-child(1) span",
+      "targets": [
+        ["css=.menu-section:nth-child(4) .menu-section__list-item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='__next']/footer/div/div/nav/div[4]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/a/span", "xpath:position"]
+      ],
+      "value": "Om Blocket"
+    }, {
+      "id": "aefbb6b1-0a1a-443e-87e7-d591ec9e76d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-section:nth-child(4) .menu-section__list-item:nth-child(1) span",
+      "targets": [
+        ["css=.menu-section:nth-child(4) .menu-section__list-item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='__next']/footer/div/div/nav/div[4]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0452055-63ed-4fb4-8afa-fce21e146440",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Card__CardWrapper-sc-1yeigd8-0:nth-child(1) .Feature__H3-sc-1tcrpza-4",
+      "targets": [
+        ["css=.Card__CardWrapper-sc-1yeigd8-0:nth-child(1) .Feature__H3-sc-1tcrpza-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div[2]/div[2]/section/div/section/div/a/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Vad är Blocket?')]", "xpath:innerText"]
+      ],
+      "value": "Vad är bblocket?"
+    }]
+  }],
+  "suites": [{
+    "id": "2fedef25-c30b-44ac-ae05-12bffa62bf62",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["80655ea9-8ce2-4ebc-963b-533c682a78a8"]
+  }],
+  "urls": ["https://www.blocket.se/"],
+  "plugins": []
+}
