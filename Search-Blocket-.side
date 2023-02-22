@@ -1,0 +1,70 @@
+{
+  "id": "ac55cb84-ea1d-4452-8481-756ff96001c8",
+  "version": "2.0",
+  "name": "Blocket-Testing",
+  "url": "https://www.blocket.se/",
+  "tests": [{
+    "id": "6ea60311-f425-47df-a99a-01d38ac06e82",
+    "name": "Search Blocket",
+    "commands": [{
+      "id": "f88d3bd6-5c23-403e-b461-b8b59a034084",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5577a604-97be-4798-974c-1d564055f859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2193db0f-946a-4d05-ad3d-556d250fcad7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus Quest"
+    }, {
+      "id": "e634f120-32bf-4b88-83b3-297ad1af1904",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e27e74f5-3ae7-4b65-905a-a79028f43f53",
+      "comment": "",
+      "command": "click",
+      "target": "",
+      "targets": [],
+      "value": "Skåne"
+    }]
+  }],
+  "suites": [{
+    "id": "2fedef25-c30b-44ac-ae05-12bffa62bf62",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.blocket.se/"],
+  "plugins": []
+}
