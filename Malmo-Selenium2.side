@@ -1,0 +1,78 @@
+{
+  "id": "0cf39ec2-b50e-4dc2-89eb-b67017f8ca6a",
+  "version": "2.0",
+  "name": "Selenium-IDE",
+  "url": "https://ecutbildning.se/",
+  "tests": [{
+    "id": "d6813717-bcb6-41d1-8bd3-908b24eeaa6f",
+    "name": "Selenium-IDE",
+    "commands": [{
+      "id": "c0f3be33-9b77-4da7-945d-1a334b155303",
+      "comment": "",
+      "command": "open",
+      "target": "https://ecutbildning.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84404914-db51-4089-a8c0-ad974293e3d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "979x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b42466f-80ee-4834-aec2-499ffa8c3b90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger-icon:nth-child(2)",
+      "targets": [
+        ["css=.hamburger-icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0447348a-59c0-47c2-8eaf-0c86d759d5cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item-19 > .site__links-1",
+      "targets": [
+        ["css=.menu-item-19 > .site__links-1", "css:finder"],
+        ["xpath=//a[contains(text(),'>> Utbildningar')]", "xpath:link"],
+        ["xpath=//ul[@id='ams_nav_menu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/utbildningar/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1580b9de-3d23-47b1-a7de-78bbb10d969d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ams_utbildninger--entry:nth-child(8) .ams_utbildninger--title",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(8) .ams_utbildninger--title", "css:finder"],
+        ["xpath=//div[@id='search-filter-results-37']/div/div[8]/a/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//div[8]/a/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Mjukvarutestare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f081eb4-868a-4c8c-9efb-b7f5b7fa4d7e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.utbildninger--program-meta_duration > .meta_text",
+      "targets": [],
+      "value": "1,5 år (Örebro)\\n2 år (Malmö)"
+    }]
+  }],
+  "suites": [{
+    "id": "6a7c5aa1-8dc3-49b4-a92a-c96368c7ad1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ecutbildning.se/"],
+  "plugins": []
+}
