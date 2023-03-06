@@ -1,0 +1,35 @@
+{
+  "id": "c5718269-80ed-477f-94b5-31e034a5f44d",
+  "version": "2.0",
+  "name": "Blocket-Automation",
+  "url": "",
+  "tests": [{
+    "id": "e93f58a1-ff78-4ad6-9a64-3e624e5855fa",
+    "name": "Search-One",
+    "commands": [{
+      "id": "c27e2e94-b95b-4f20-882b-da5669738bf1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b0d2fdc-5951-40ab-bdb4-feae72fdf5a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e93f58a1-ff78-4ad6-9a64-3e624e5855fa"]
+  }],
+  "urls": [],
+  "plugins": []
+}
