@@ -181,7 +181,7 @@
     }, {
       "id": "4975af8a-cd89-4671-a01e-5279d3837f22",
       "comment": "",
-      "command": "waitForElementVisible",
+      "command": "assertElementNotPresent",
       "target": "linkText=Vr Headset Oculus Quest 2",
       "targets": [],
       "value": "5000"
@@ -394,6 +394,106 @@
       "target": "Skåne",
       "targets": [],
       "value": "${Skåne2}"
+    }]
+  }, {
+    "id": "b966ab0d-dcaa-4c2b-b0b0-42eb2b272f27",
+    "name": "Neighboring counties",
+    "commands": [{
+      "id": "92bedbbe-0bb3-4f6f-a0bb-d31257c9b816",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f4dad9-6e29-4747-8ab7-5ed0863690fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9c70840-a342-458e-9541-13a936ffeed5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Husvagn"
+    }, {
+      "id": "68275583-e61c-4c17-b91e-6d3a8cf27b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__SearchHeadline-sc-1gnzteb-1",
+      "targets": [
+        ["css=.small__SearchHeadline-sc-1gnzteb-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "972c5308-eaac-491e-a5ae-78963c214298",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Kalmar"
+    }, {
+      "id": "44af7df0-1473-422c-9199-be5735b37e3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f406e6-ef5e-489a-994e-25adbea16ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "891a776f-18b6-4a5e-be13-bdcd89115e3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverviewSearchParam__Item-sc-18x4ate-0:nth-child(2) .OverviewSearchParam__CheckBoxIcon-sc-18x4ate-4",
+      "targets": [
+        ["css=.OverviewSearchParam__Item-sc-18x4ate-0:nth-child(2) .OverviewSearchParam__CheckBoxIcon-sc-18x4ate-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[3]/div[2]/div[2]/span[2]/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79d60e9-e40e-46fc-b969-78f338046f04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__ChildrenWrapper-sc-pchbnd-3 > span",
+      "targets": [
+        ["css=.Buttonstyles__ChildrenWrapper-sc-pchbnd-3 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div[2]/div[2]/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9d90e0-c594-4b96-a044-73e9127339c0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [],
+      "value": "\"Husvagn\" - Säljes i flera län"
     }]
   }],
   "suites": [{
