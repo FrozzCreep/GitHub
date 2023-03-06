@@ -2,10 +2,10 @@
   "id": "c5718269-80ed-477f-94b5-31e034a5f44d",
   "version": "2.0",
   "name": "Blocket-Automation",
-  "url": "",
+  "url": "https://www.blocket.se",
   "tests": [{
     "id": "e93f58a1-ff78-4ad6-9a64-3e624e5855fa",
-    "name": "Search-One",
+    "name": "Does searching work?",
     "commands": [{
       "id": "c27e2e94-b95b-4f20-882b-da5669738bf1",
       "comment": "",
@@ -20,6 +20,160 @@
       "target": "700x700",
       "targets": [],
       "value": ""
+    }, {
+      "id": "688d9415-6be4-4564-ab4f-f4f24f8740cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78626d17-7619-4c4f-8bcb-497f5d4dd815",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus Quest 2"
+    }, {
+      "id": "2337dfa6-bb09-4a7d-97a9-81f12c9d835e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus Quest 23']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "BeforeSearch"
+    }, {
+      "id": "96fbf2b0-0526-4c93-a313-a1e79681ead0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "targets": [
+        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc68531b-4409-4059-8ddf-d8a4ffadd40c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7da64e-8e7f-492a-836f-8c8876b9607b",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Blekinge"
+    }, {
+      "id": "82d6a891-06ff-4bba-8de9-375bf6574104",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[6]/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ade0f2-ce7c-4418-a9d1-78ff8cecdeca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e451992f-2c39-4b5b-b97b-c4a868a9a961",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus Quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AfterSearch"
+    }, {
+      "id": "f6e02e16-98b4-4605-bd68-6d7dcd2b29e3",
+      "comment": "",
+      "command": "verify",
+      "target": "AfterSearch",
+      "targets": [],
+      "value": "${BeforeSearch}"
+    }]
+  }, {
+    "id": "812b0afb-ae85-4901-a43c-5b95bb467677",
+    "name": "Manipulate search to make it fail",
+    "commands": [{
+      "id": "5c821ba1-efe0-42db-ac81-23f3f232bc73",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fec940e-550b-40bc-9040-aac6a0a503a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b83766-45c7-40a5-9a0f-e3f279bf88d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 1']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 2"
+    }, {
+      "id": "58ec547a-c130-4590-9d84-5eaa5b1ee4a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e76a9a9-86db-46c1-b4b6-8371f4b70670",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Vr Headset Oculus Quest 2",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
@@ -30,6 +184,6 @@
     "timeout": 300,
     "tests": ["e93f58a1-ff78-4ad6-9a64-3e624e5855fa"]
   }],
-  "urls": [],
+  "urls": ["https://www.blocket.se/"],
   "plugins": []
 }
