@@ -129,7 +129,7 @@
     }]
   }, {
     "id": "812b0afb-ae85-4901-a43c-5b95bb467677",
-    "name": "Manipulate search to make it fail",
+    "name": "No results - fail",
     "commands": [{
       "id": "5c821ba1-efe0-42db-ac81-23f3f232bc73",
       "comment": "",
@@ -155,7 +155,7 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Oculus quest 2"
+      "value": "Oculus quest 1"
     }, {
       "id": "58ec547a-c130-4590-9d84-5eaa5b1ee4a9",
       "comment": "",
@@ -168,12 +168,232 @@
       ],
       "value": ""
     }, {
-      "id": "2e76a9a9-86db-46c1-b4b6-8371f4b70670",
+      "id": "33aa970b-0a36-49e5-ab7d-4d9d80550e61",
       "comment": "",
-      "command": "assertElementNotPresent",
+      "command": "assertText",
+      "target": "css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0",
+      "targets": [
+        ["css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "0 annonser"
+    }, {
+      "id": "4975af8a-cd89-4671-a01e-5279d3837f22",
+      "comment": "",
+      "command": "waitForElementVisible",
       "target": "linkText=Vr Headset Oculus Quest 2",
       "targets": [],
+      "value": "5000"
+    }]
+  }, {
+    "id": "943c9f30-47da-448d-ad0b-8f7f212ac14b",
+    "name": "Manipulate search to make it fail",
+    "commands": [{
+      "id": "b941f889-8075-4a8c-8d98-a2a39cd0a430",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
       "value": ""
+    }, {
+      "id": "b00c3c80-33f2-41ff-b49d-0401bbe78fb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8f312e7-d87b-4ced-9d08-129e47442edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb0b2c63-acc0-419e-82c2-48ac3962618d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 2"
+    }, {
+      "id": "26005faf-283f-4f0f-b687-4ffbc48d20c4",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "16a1ebad-d057-4845-a9f3-132cb8725819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded06175-a0c6-443d-9ac5-e4f99afca9ad",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Oculus quest\" - Säljes i Skåne')]", "xpath:innerText"]
+      ],
+      "value": "BeforeSearch"
+    }, {
+      "id": "adb34e12-593f-48e7-8a1c-233a0fdf9349",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest "
+    }, {
+      "id": "2e1fd3cf-f736-471f-a591-5581dd34aa42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bddd3d8-b5a9-45f0-9cf3-442dfaefae39",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Oculus quest 2\" - Säljes i Skåne')]", "xpath:innerText"]
+      ],
+      "value": "AfterSearch"
+    }, {
+      "id": "f449c86d-9288-43d1-b82f-65606e98a046",
+      "comment": "",
+      "command": "verify",
+      "target": "BeforeSearch",
+      "targets": [],
+      "value": "${AfterSearch}"
+    }]
+  }, {
+    "id": "bed396c3-89a5-41ed-a429-ac7ccab72232",
+    "name": "County still same?",
+    "commands": [{
+      "id": "98fcd131-7cb9-4dc1-9237-e45ad96d6816",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e073d742-ccb4-47f0-8f37-316dc2f61b28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feff429e-3a62-4adb-9add-b31643ac1645",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Volvo V50']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Volvo V50"
+    }, {
+      "id": "d457f44e-5719-473d-9cc8-cb0279a084b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "targets": [
+        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cffcbd6-2c2e-4e19-8da8-a768f403cf58",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "26fb8d29-1afe-4f5f-a974-3fbc18c6f52a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "Skåne"
+    }, {
+      "id": "00665d9a-82dc-4c55-9593-bed33f1062d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcc1d39-e34e-4ad1-928b-ae45d50764a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 svg",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3275a7b-f2c0-44ce-876e-2d72b78cd628",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div:nth-child(3) > div > .OverviewSearchParam__Item-sc-18x4ate-0:nth-child(1) > .OverviewSearchParam__Selection-sc-18x4ate-3",
+      "targets": [
+        ["css=div:nth-child(3) > div > .OverviewSearchParam__Item-sc-18x4ate-0:nth-child(1) > .OverviewSearchParam__Selection-sc-18x4ate-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[3]/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": "Skåne2"
+    }, {
+      "id": "b06cd001-fbef-4708-bf38-ac256aa132c1",
+      "comment": "",
+      "command": "verify",
+      "target": "Skåne",
+      "targets": [],
+      "value": "${Skåne2}"
     }]
   }],
   "suites": [{
