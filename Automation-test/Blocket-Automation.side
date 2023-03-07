@@ -800,14 +800,14 @@
       "id": "11324f15-7970-4a3b-851d-2ad0230321dc",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (999)",
+      "target": "linkText=Husvagnar & husbilar (238)",
       "targets": [
-        ["linkText=Husvagnar & husbilar (999)", "linkText"],
+        ["linkText=Husvagnar & husbilar (238)", "linkText"],
         ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=23')]", "xpath:href"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/kalmar/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=18')]", "xpath:href"],
         ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (238)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -827,7 +827,7 @@
       "command": "select",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
       "targets": [],
-      "value": "label=1 000 kr"
+      "value": "label=0 kr"
     }, {
       "id": "d8dc0dfb-2424-43fd-b692-35915bde2031",
       "comment": "",
@@ -899,7 +899,7 @@
       "id": "f4a57df4-02ff-4d4b-8744-cd1cccd87868",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (999)",
+      "target": "linkText=Husvagnar & husbilar (238)",
       "targets": [
         ["linkText=Husvagnar & husbilar (999)", "linkText"],
         ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
@@ -926,7 +926,7 @@
       "command": "select",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
       "targets": [],
-      "value": "label=5 000 kr"
+      "value": "label=20 000 kr"
     }, {
       "id": "d840a597-e92b-4441-8bf7-47524adc360d",
       "comment": "",
@@ -951,6 +951,506 @@
       "command": "setWindowSize",
       "target": "100x100",
       "targets": [],
+      "value": ""
+    }, {
+      "id": "786436e8-28f4-49fc-9908-010f048cd7a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e7a817-b40f-4a46-be54-1d197b47fa6f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=5 000 kr"
+    }, {
+      "id": "f3504158-d1de-4ed2-ab4f-f333add0cc4c",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=10 000 kr"
+    }]
+  }, {
+    "id": "b6c27bd4-dcfd-44e2-9d84-3d8279d6bfe3",
+    "name": "Car filters",
+    "commands": [{
+      "id": "81af8933-05f0-4d1b-aff3-99c3ce07e402",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cf3879b-9838-4034-aafb-350a09cbd8c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c21de454-1df1-4444-a04a-d4a1677e842f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "dfb5b9bc-3621-4d7e-948c-95af3455a75e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a8520d-7a55-4c15-94ca-6981f902459f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bilar (16 153)",
+      "targets": [
+        ["linkText=Bilar (16 156)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/bilar?cg=1020&r=23')]", "xpath:href"],
+        ["xpath=//ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bilar (16 156)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2557b34-23d9-46e7-8f3c-dff82f086c83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div[2]/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c537a291-ed63-402d-9767-d73ff1eb2b67",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=2020"
+    }, {
+      "id": "3c43dc04-4c66-41dc-9010-a0cc79f4da54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div[2]/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div[2]/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e6cd05-c9ba-40c4-841a-9dfe32747f8e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=2023"
+    }, {
+      "id": "4addcb50-3143-458f-a2a5-8e6d91f06cf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "642688ce-6f00-4d7f-99ea-7701eae60fd3",
+    "name": "Counties (resizing)",
+    "commands": [{
+      "id": "5a4d8cbb-7813-46b8-8749-74f0921dd214",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e3342c3-5b56-49ba-8def-3aa27d21cfb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f56cb18a-b164-41ec-a05a-92beca5f326d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b69161-ddb8-489b-af95-256a7d27d9f9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "7d2bcd1f-e9f8-48cc-a82b-cdb0bab6a018",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "113e35a1-ec9f-4b04-aa24-ab2ff4106a9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca929af-5b27-4733-8c70-ffd52f712c82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0",
+      "targets": [
+        ["css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div/div/div/div/li/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2d06e62-0e12-4353-a4e0-46122e329bf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div[2]/div[2]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "221abfa1-d7b3-4aa6-98b2-4a21ecdfedb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "500x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "563f61d2-abd0-42c0-82e4-1f652b6fa34f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6928f469-36f6-472f-9981-6f654a8d1d80",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "Fordon säljes i hela Sverige"
+    }]
+  }, {
+    "id": "3ff615dd-9c21-4dd6-a7bb-1c2cb71ae57f",
+    "name": "Cars filters (resizing)",
+    "commands": [{
+      "id": "8cc64b8c-3af6-4e50-8d4e-5eeca54b4fb3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cb06a38-f1b3-4341-83b0-bcfcf4267224",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9493134-b612-429d-8f5e-da33450b12d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd1a25e-36c9-49a4-bb82-d190c28b91e5",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "bba53628-9dcc-4dec-a0ab-efde43c5f1d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac05d47a-a992-4584-a640-6d925593e474",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1794926e-3412-4db1-af0f-3ffa358c6aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0",
+      "targets": [
+        ["css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div/div/div/div/li/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bb1086-cc03-4846-a1d0-16816d9338f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div[2]/div[2]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beec4c6d-e780-4343-a9e1-6ff0d35fbc92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "500x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80d4c9b0-305d-4d67-9657-af2dd16f56bb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "d9c57ba5-8b1c-440d-a819-9acd59c01d94",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "Fordon säljes i hela Sverige"
+    }, {
+      "id": "f45690c1-4322-4ef2-b443-e1e1c1b6ecf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrera (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8131d590-8a4d-435e-bb68-16ad8b7f519f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > div:nth-child(2) .OverviewSearchParam__Selection-sc-18x4ate-3",
+      "targets": [
+        ["css=div:nth-child(4) > div:nth-child(2) .OverviewSearchParam__Selection-sc-18x4ate-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[4]/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Fordon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca5248fb-850d-4413-b25b-0ada39503cd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=1020",
+      "targets": [
+        ["id=1020", "id"],
+        ["name=Bilar", "name"],
+        ["css=#\\31 020", "css:finder"],
+        ["xpath=//input[@id='1020']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0785fef9-4ffd-41b4-a254-e18f2fd28fe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1abde1af-07a4-4329-8f5d-03af90ad9bc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.kfyKOX > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa 122 704 annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5387a28f-1b61-4033-825d-33d40f71e6bd",
+    "name": "Search - Past results",
+    "commands": [{
+      "id": "e7b35a30-a8ec-45da-aa68-215bb6d1db15",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bae223ee-cf5b-4294-9b43-53a8853e24db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a46c88fc-42f8-4148-b674-4a50c929d077",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 2"
+    }, {
+      "id": "a68b6876-23e5-4973-9546-35d46f136355",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3919e9e6-4eda-4a1f-9efc-aef3fe9decac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Telefoner & tillbehör (1)",
+      "targets": [
+        ["linkText=Telefoner & tillbehör (1)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(2) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/hela_sverige/elektronik/telefoner_tillbehor?cg=5060&q=Oculus%20quest%202')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Telefoner & tillbehör (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b219e0b0-b4a6-4349-b213-730190c90a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ca9ff6b-238f-4b75-ab56-1f41af9dcae3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56ec80ff-f135-40d8-9e4e-87c74000187b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
       "value": ""
     }]
   }],
