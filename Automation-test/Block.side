@@ -1,0 +1,1552 @@
+{
+  "id": "c5718269-80ed-477f-94b5-31e034a5f44d",
+  "version": "2.0",
+  "name": "Blocket-Automation",
+  "url": "https://www.blocket.se",
+  "tests": [{
+    "id": "e93f58a1-ff78-4ad6-9a64-3e624e5855fa",
+    "name": "Does searching work?",
+    "commands": [{
+      "id": "c27e2e94-b95b-4f20-882b-da5669738bf1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6263d5-f19c-428e-943c-e603d8a41daa",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "62862d29-d061-4e5d-9316-69a7c999db67",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [
+        ["id=accept-ufti", "id"],
+        ["css=#accept-ufti", "css:finder"],
+        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0e8a4b-0fff-47a1-95cc-3d5db2e41a39",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b0d2fdc-5951-40ab-bdb4-feae72fdf5a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "688d9415-6be4-4564-ab4f-f4f24f8740cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78626d17-7619-4c4f-8bcb-497f5d4dd815",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus Quest 2"
+    }, {
+      "id": "2337dfa6-bb09-4a7d-97a9-81f12c9d835e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus Quest 23']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "BeforeSearch"
+    }, {
+      "id": "96fbf2b0-0526-4c93-a313-a1e79681ead0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "targets": [
+        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc68531b-4409-4059-8ddf-d8a4ffadd40c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7da64e-8e7f-492a-836f-8c8876b9607b",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Blekinge"
+    }, {
+      "id": "82d6a891-06ff-4bba-8de9-375bf6574104",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[6]/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ade0f2-ce7c-4418-a9d1-78ff8cecdeca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e451992f-2c39-4b5b-b97b-c4a868a9a961",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus Quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AfterSearch"
+    }, {
+      "id": "f6e02e16-98b4-4605-bd68-6d7dcd2b29e3",
+      "comment": "",
+      "command": "verify",
+      "target": "AfterSearch",
+      "targets": [],
+      "value": "${BeforeSearch}"
+    }, {
+      "id": "5139347d-0c8b-4008-a72b-d063700f7b80",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [
+        ["id=accept-ufti", "id"],
+        ["css=#accept-ufti", "css:finder"],
+        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "812b0afb-ae85-4901-a43c-5b95bb467677",
+    "name": "No results - fail",
+    "commands": [{
+      "id": "5c821ba1-efe0-42db-ac81-23f3f232bc73",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fec940e-550b-40bc-9040-aac6a0a503a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b83766-45c7-40a5-9a0f-e3f279bf88d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 1']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 1"
+    }, {
+      "id": "58ec547a-c130-4590-9d84-5eaa5b1ee4a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33aa970b-0a36-49e5-ab7d-4d9d80550e61",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0",
+      "targets": [
+        ["css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "0 annonser"
+    }, {
+      "id": "4975af8a-cd89-4671-a01e-5279d3837f22",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Vr Headset Oculus Quest 2",
+      "targets": [],
+      "value": "5000"
+    }]
+  }, {
+    "id": "943c9f30-47da-448d-ad0b-8f7f212ac14b",
+    "name": "Manipulate search to make it fail",
+    "commands": [{
+      "id": "b941f889-8075-4a8c-8d98-a2a39cd0a430",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b00c3c80-33f2-41ff-b49d-0401bbe78fb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8f312e7-d87b-4ced-9d08-129e47442edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb0b2c63-acc0-419e-82c2-48ac3962618d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 2"
+    }, {
+      "id": "26005faf-283f-4f0f-b687-4ffbc48d20c4",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "16a1ebad-d057-4845-a9f3-132cb8725819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded06175-a0c6-443d-9ac5-e4f99afca9ad",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Oculus quest\" - Säljes i Skåne')]", "xpath:innerText"]
+      ],
+      "value": "BeforeSearch"
+    }, {
+      "id": "adb34e12-593f-48e7-8a1c-233a0fdf9349",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest "
+    }, {
+      "id": "2e1fd3cf-f736-471f-a591-5581dd34aa42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bddd3d8-b5a9-45f0-9cf3-442dfaefae39",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Oculus quest 2\" - Säljes i Skåne')]", "xpath:innerText"]
+      ],
+      "value": "AfterSearch"
+    }, {
+      "id": "f449c86d-9288-43d1-b82f-65606e98a046",
+      "comment": "",
+      "command": "verify",
+      "target": "BeforeSearch",
+      "targets": [],
+      "value": "${AfterSearch}"
+    }]
+  }, {
+    "id": "bed396c3-89a5-41ed-a429-ac7ccab72232",
+    "name": "County still same?",
+    "commands": [{
+      "id": "98fcd131-7cb9-4dc1-9237-e45ad96d6816",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e073d742-ccb4-47f0-8f37-316dc2f61b28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feff429e-3a62-4adb-9add-b31643ac1645",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Volvo V50']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Volvo V50"
+    }, {
+      "id": "d457f44e-5719-473d-9cc8-cb0279a084b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "targets": [
+        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cffcbd6-2c2e-4e19-8da8-a768f403cf58",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "26fb8d29-1afe-4f5f-a974-3fbc18c6f52a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "Skåne"
+    }, {
+      "id": "00665d9a-82dc-4c55-9593-bed33f1062d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcc1d39-e34e-4ad1-928b-ae45d50764a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 svg",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3275a7b-f2c0-44ce-876e-2d72b78cd628",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div:nth-child(3) > div > .OverviewSearchParam__Item-sc-18x4ate-0:nth-child(1) > .OverviewSearchParam__Selection-sc-18x4ate-3",
+      "targets": [
+        ["css=div:nth-child(3) > div > .OverviewSearchParam__Item-sc-18x4ate-0:nth-child(1) > .OverviewSearchParam__Selection-sc-18x4ate-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[3]/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": "Skåne2"
+    }, {
+      "id": "b06cd001-fbef-4708-bf38-ac256aa132c1",
+      "comment": "",
+      "command": "verify",
+      "target": "Skåne",
+      "targets": [],
+      "value": "${Skåne2}"
+    }]
+  }, {
+    "id": "b966ab0d-dcaa-4c2b-b0b0-42eb2b272f27",
+    "name": "Neighboring counties",
+    "commands": [{
+      "id": "92bedbbe-0bb3-4f6f-a0bb-d31257c9b816",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f4dad9-6e29-4747-8ab7-5ed0863690fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9c70840-a342-458e-9541-13a936ffeed5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Husvagn"
+    }, {
+      "id": "68275583-e61c-4c17-b91e-6d3a8cf27b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__SearchHeadline-sc-1gnzteb-1",
+      "targets": [
+        ["css=.small__SearchHeadline-sc-1gnzteb-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "972c5308-eaac-491e-a5ae-78963c214298",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Kalmar"
+    }, {
+      "id": "44af7df0-1473-422c-9199-be5735b37e3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "targets": [
+        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f406e6-ef5e-489a-994e-25adbea16ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "891a776f-18b6-4a5e-be13-bdcd89115e3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverviewSearchParam__Item-sc-18x4ate-0:nth-child(2) .OverviewSearchParam__CheckBoxIcon-sc-18x4ate-4",
+      "targets": [
+        ["css=.OverviewSearchParam__Item-sc-18x4ate-0:nth-child(2) .OverviewSearchParam__CheckBoxIcon-sc-18x4ate-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[3]/div[2]/div[2]/span[2]/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79d60e9-e40e-46fc-b969-78f338046f04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__ChildrenWrapper-sc-pchbnd-3 > span",
+      "targets": [
+        ["css=.Buttonstyles__ChildrenWrapper-sc-pchbnd-3 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div[2]/div[2]/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9d90e0-c594-4b96-a044-73e9127339c0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [],
+      "value": "\"Husvagn\" - Säljes i flera län"
+    }]
+  }, {
+    "id": "dc983b9b-69c1-4a4f-b8c3-513626738912",
+    "name": "Access advertisement",
+    "commands": [{
+      "id": "bb36602f-3d53-41b5-ae07-d80215b7228d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc515085-98d0-4dcd-8da5-a9fb73b56639",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "",
+      "targets": [],
+      "value": "${ENTER}"
+    }, {
+      "id": "4f256579-39dc-4c22-a510-2435ebe79b13",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "",
+      "targets": [],
+      "value": "${ENTER}"
+    }, {
+      "id": "b5d23f09-d2a7-4c93-8bcd-99bee784d431",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71fdbdf0-4366-43d5-9fa8-aa7a99efab97",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "3a86835b-2d87-4452-b2e6-4f8dbbb331f7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Husvagn"
+    }, {
+      "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce9cc61-669a-4e83-baeb-830643970895",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Cabby 510",
+      "targets": [
+        ["linkText=Cabby 510", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/cabby_510/107393475')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cabby 510')]", "xpath:innerText"]
+      ],
+      "value": "Cabby 510"
+    }, {
+      "id": "5dc767eb-68da-4054-b6db-a9f2426ec78c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Husvagnar & husbilar (999)",
+      "targets": [
+        ["linkText=Husvagnar & husbilar (999)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=Husvagn&r=23')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf710c3-25b5-4743-83b9-013f4d8eeab3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Husvagn (888)",
+      "targets": [
+        ["linkText=Husvagn (888)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar/husvagn?cg=1101&q=Husvagn&r=23')]", "xpath:href"],
+        ["xpath=//ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Husvagn (888)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac5ca5b-d043-4ae8-a3a2-de8c50df3fa8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2",
+      "targets": [
+        ["css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/nav/ol/li[7]/div", "xpath:idRelative"],
+        ["xpath=//li[7]/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "1c800661-f441-4c4c-89f5-c1308e6ea8c8",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2",
+      "targets": [
+        ["css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/nav/ol/li[7]/div", "xpath:idRelative"],
+        ["xpath=//li[7]/div", "xpath:position"]
+      ],
+      "value": "Category-outside"
+    }, {
+      "id": "2d29d8e4-2566-458e-be21-9f04790d2301",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cabby 510",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0d50fbe-e50d-42aa-a91c-174b9002837f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
+      "targets": [
+        ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/nav/ol/li[7]/a/div", "xpath:idRelative"],
+        ["xpath=//li[7]/a/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "5648c8b9-10ab-44ba-9410-571463d4ee2d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
+      "targets": [
+        ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/nav/ol/li[7]/a/div", "xpath:idRelative"],
+        ["xpath=//li[7]/a/div", "xpath:position"]
+      ],
+      "value": "Category-inside"
+    }, {
+      "id": "8c036d72-a452-4035-8af5-275ac0af83b6",
+      "comment": "",
+      "command": "verify",
+      "target": "Category-outside",
+      "targets": [],
+      "value": "${Category-inside}"
+    }]
+  }, {
+    "id": "be81c956-ff94-4594-80bc-6c3663aa0942",
+    "name": "Change size - Search button",
+    "commands": [{
+      "id": "c93717ad-9986-4fb5-a8ad-0af2feaa33ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0bfe85c-02ea-428e-b528-0b8a289f6da5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e28ef9df-8d10-4a34-ae73-944408bc3f48",
+    "name": "Price - From & To",
+    "commands": [{
+      "id": "49a2f8f4-0547-4b7e-88cc-d1a53f430241",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e859eab0-6ed6-42a6-8fa0-1e6903b6af94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "husvagn"
+    }, {
+      "id": "0470d654-ab56-43cd-a3ac-7f81819a3faa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58ac4e76-3daf-4091-91c7-6f64a2a39366",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Husvagnar & husbilar (999)",
+      "targets": [
+        ["linkText=Husvagnar & husbilar (999)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=23')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec9868b6-3ee5-4598-b01e-126ba610fe18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0a4f90-8681-4b73-85a1-f4ea9db1fbfa",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=5 000 kr"
+    }, {
+      "id": "4a95dd5d-52ea-425a-a3f3-105e3b69d222",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63a0a343-bd48-4f98-a4a9-4823f4c25771",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=30 000 kr"
+    }]
+  }, {
+    "id": "c1b69079-ebde-4e4e-b495-1df637ad55db",
+    "name": "Price - From & To (invalid value)",
+    "commands": [{
+      "id": "e984bfd5-16db-455d-b8bf-5105ab8afd2f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edb81e5f-9179-4fd8-a964-2de1656cd021",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d039d077-dcb4-4a19-8d95-32cb44d85ab6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "husvagn"
+    }, {
+      "id": "62fab1f5-d3f0-42cc-99d0-f14d242b2160",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11324f15-7970-4a3b-851d-2ad0230321dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Husvagnar & husbilar (238)",
+      "targets": [
+        ["linkText=Husvagnar & husbilar (238)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/kalmar/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=18')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (238)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a378cc1-3381-41d3-a4eb-eddfdaef5bb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ced9d7-5bbf-46d5-b099-c5ed194e11c4",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=0 kr"
+    }, {
+      "id": "d8dc0dfb-2424-43fd-b692-35915bde2031",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e24b636-c93f-4ed6-abd9-d5fcc98e03dc",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=30 000 kr"
+    }, {
+      "id": "d1fef1ba-1550-4fd7-922d-a4afc2b8dae7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "805dedad-3bb5-4c07-9225-1efd9aaac636",
+    "name": "Price - From & To (resizing)",
+    "commands": [{
+      "id": "5d6a2363-ce36-4c9b-a970-73cdd3bce388",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d272d25-6a0c-4fd5-b994-78897f7fb718",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c16d494d-bc2a-4167-9c94-257cece26404",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "husvagn"
+    }, {
+      "id": "ef611268-c373-46f1-8697-2d10f6c30234",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a57df4-02ff-4d4b-8744-cd1cccd87868",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Husvagnar & husbilar (238)",
+      "targets": [
+        ["linkText=Husvagnar & husbilar (999)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=23')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeb3be12-76ab-49bf-9451-b0ed87b00593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb099510-9c77-469d-b4ab-2ed1a2b3e6d6",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=20 000 kr"
+    }, {
+      "id": "d840a597-e92b-4441-8bf7-47524adc360d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db640cf7-4408-4661-b100-3978e94c42e1",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=30 000 kr"
+    }, {
+      "id": "82f7bc4c-2a4c-4133-ba8c-81ccbdc32165",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "100x100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "786436e8-28f4-49fc-9908-010f048cd7a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e7a817-b40f-4a46-be54-1d197b47fa6f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=5 000 kr"
+    }, {
+      "id": "f3504158-d1de-4ed2-ab4f-f333add0cc4c",
+      "comment": "",
+      "command": "select",
+      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=10 000 kr"
+    }]
+  }, {
+    "id": "b6c27bd4-dcfd-44e2-9d84-3d8279d6bfe3",
+    "name": "Car filters",
+    "commands": [{
+      "id": "81af8933-05f0-4d1b-aff3-99c3ce07e402",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cf3879b-9838-4034-aafb-350a09cbd8c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c21de454-1df1-4444-a04a-d4a1677e842f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "dfb5b9bc-3621-4d7e-948c-95af3455a75e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a8520d-7a55-4c15-94ca-6981f902459f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bilar (16 153)",
+      "targets": [
+        ["linkText=Bilar (16 156)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/bilar?cg=1020&r=23')]", "xpath:href"],
+        ["xpath=//ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bilar (16 156)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2557b34-23d9-46e7-8f3c-dff82f086c83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div[2]/fieldset/div/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c537a291-ed63-402d-9767-d73ff1eb2b67",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=2020"
+    }, {
+      "id": "3c43dc04-4c66-41dc-9010-a0cc79f4da54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [
+        ["css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div[2]/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div[2]/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e6cd05-c9ba-40c4-841a-9dfe32747f8e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter:nth-child(2) .TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "targets": [],
+      "value": "label=2023"
+    }, {
+      "id": "4addcb50-3143-458f-a2a5-8e6d91f06cf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "642688ce-6f00-4d7f-99ea-7701eae60fd3",
+    "name": "Counties (resizing)",
+    "commands": [{
+      "id": "5a4d8cbb-7813-46b8-8749-74f0921dd214",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e3342c3-5b56-49ba-8def-3aa27d21cfb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f56cb18a-b164-41ec-a05a-92beca5f326d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b69161-ddb8-489b-af95-256a7d27d9f9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "7d2bcd1f-e9f8-48cc-a82b-cdb0bab6a018",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "113e35a1-ec9f-4b04-aa24-ab2ff4106a9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca929af-5b27-4733-8c70-ffd52f712c82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0",
+      "targets": [
+        ["css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div/div/div/div/li/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2d06e62-0e12-4353-a4e0-46122e329bf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div[2]/div[2]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "221abfa1-d7b3-4aa6-98b2-4a21ecdfedb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "500x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "563f61d2-abd0-42c0-82e4-1f652b6fa34f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6928f469-36f6-472f-9981-6f654a8d1d80",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "Fordon säljes i hela Sverige"
+    }]
+  }, {
+    "id": "3ff615dd-9c21-4dd6-a7bb-1c2cb71ae57f",
+    "name": "Cars filters (resizing)",
+    "commands": [{
+      "id": "8cc64b8c-3af6-4e50-8d4e-5eeca54b4fb3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cb06a38-f1b3-4341-83b0-bcfcf4267224",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9493134-b612-429d-8f5e-da33450b12d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[5]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd1a25e-36c9-49a4-bb82-d190c28b91e5",
+      "comment": "",
+      "command": "select",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [],
+      "value": "label=Skåne"
+    }, {
+      "id": "bba53628-9dcc-4dec-a0ab-efde43c5f1d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
+      "targets": [
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac05d47a-a992-4584-a640-6d925593e474",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select:nth-child(2) > .selection",
+      "targets": [
+        ["css=.select:nth-child(2) > .selection", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skåne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1794926e-3412-4db1-af0f-3ffa358c6aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0",
+      "targets": [
+        ["css=.options-top > .option:nth-child(1) .FocusOutline-sc-cw4sc4-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div/div/div/div/li/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bb1086-cc03-4846-a1d0-16816d9338f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.kfyKOX .TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/div/div/div/div/ul/div[2]/div[2]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beec4c6d-e780-4343-a9e1-6ff0d35fbc92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "500x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80d4c9b0-305d-4d67-9657-af2dd16f56bb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "d9c57ba5-8b1c-440d-a819-9acd59c01d94",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [
+        ["css=.SmallLayout__TopRow-sc-1logo21-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fordon säljes i hela Sverige')]", "xpath:innerText"]
+      ],
+      "value": "Fordon säljes i hela Sverige"
+    }, {
+      "id": "f45690c1-4322-4ef2-b443-e1e1c1b6ecf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.FilterButton__StyledButton-sc-m1ctz3-0 .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrera (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8131d590-8a4d-435e-bb68-16ad8b7f519f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > div:nth-child(2) .OverviewSearchParam__Selection-sc-18x4ate-3",
+      "targets": [
+        ["css=div:nth-child(4) > div:nth-child(2) .OverviewSearchParam__Selection-sc-18x4ate-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/article/ul/div[4]/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Fordon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca5248fb-850d-4413-b25b-0ada39503cd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=1020",
+      "targets": [
+        ["id=1020", "id"],
+        ["name=Bilar", "name"],
+        ["css=#\\31 020", "css:finder"],
+        ["xpath=//input[@id='1020']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0785fef9-4ffd-41b4-a254-e18f2fd28fe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1abde1af-07a4-4329-8f5d-03af90ad9bc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kfyKOX > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.kfyKOX > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa 122 704 annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5387a28f-1b61-4033-825d-33d40f71e6bd",
+    "name": "Search - Past results",
+    "commands": [{
+      "id": "e7b35a30-a8ec-45da-aa68-215bb6d1db15",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bae223ee-cf5b-4294-9b43-53a8853e24db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a46c88fc-42f8-4148-b674-4a50c929d077",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus quest 2"
+    }, {
+      "id": "a68b6876-23e5-4973-9546-35d46f136355",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3919e9e6-4eda-4a1f-9efc-aef3fe9decac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Telefoner & tillbehör (1)",
+      "targets": [
+        ["linkText=Telefoner & tillbehör (1)", "linkText"],
+        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(2) > .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/hela_sverige/elektronik/telefoner_tillbehor?cg=5060&q=Oculus%20quest%202')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Telefoner & tillbehör (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b219e0b0-b4a6-4349-b213-730190c90a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ca9ff6b-238f-4b75-ab56-1f41af9dcae3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56ec80ff-f135-40d8-9e4e-87c74000187b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Oculus quest 2']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-tabbar']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7bc64f39-5194-4097-b28e-113dedd1284e",
+    "name": "Simple pass",
+    "commands": [{
+      "id": "f0472bc4-b70b-40c0-8347-5cd0dee1468a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d7ab83e-231f-4ca2-a43a-94f991802169",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [
+        ["id=accept-ufti", "id"],
+        ["css=#accept-ufti", "css:finder"],
+        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0e6d3c-a09d-4075-8953-262869abf1dc",
+      "comment": "",
+      "command": "close",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7bc64f39-5194-4097-b28e-113dedd1284e"]
+  }],
+  "urls": ["https://www.blocket.se/", "https://ecutbildning.se/"],
+  "plugins": []
+}
