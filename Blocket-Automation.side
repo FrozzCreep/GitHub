@@ -533,7 +533,7 @@
     }]
   }, {
     "id": "dc983b9b-69c1-4a4f-b8c3-513626738912",
-    "name": "Access advertisement",
+    "name": "Verify advertisement name",
     "commands": [{
       "id": "bb36602f-3d53-41b5-ae07-d80215b7228d",
       "comment": "",
@@ -551,10 +551,10 @@
     }, {
       "id": "71fdbdf0-4366-43d5-9fa8-aa7a99efab97",
       "comment": "",
-      "command": "select",
-      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "command": "//click",
+      "target": "id=accept-ufti",
       "targets": [],
-      "value": "label=Skåne"
+      "value": ""
     }, {
       "id": "3a86835b-2d87-4452-b2e6-4f8dbbb331f7",
       "comment": "",
@@ -567,6 +567,13 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": "Husvagn"
+    }, {
+      "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [],
+      "value": ""
     }, {
       "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
       "comment": "",
@@ -581,105 +588,52 @@
       ],
       "value": ""
     }, {
-      "id": "4ce9cc61-669a-4e83-baeb-830643970895",
+      "id": "f23c4306-3d8a-49c6-bedd-e084f2adbae4",
       "comment": "",
-      "command": "assertText",
-      "target": "linkText=Cabby 510",
+      "command": "storeText",
+      "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Cabby 510", "linkText"],
+        ["linkText=Weber Q3200", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
         ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/cabby_510/107393475')]", "xpath:href"],
+        ["xpath=//a[contains(@href, '/annons/skane/weber_q3200/107714003')]", "xpath:href"],
         ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Cabby 510')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Weber Q3200')]", "xpath:innerText"]
       ],
-      "value": "Cabby 510"
+      "value": "objectone"
     }, {
-      "id": "5dc767eb-68da-4054-b6db-a9f2426ec78c",
+      "id": "b1023d24-c1ee-48d7-8875-1704672a155e",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (999)",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0",
       "targets": [
-        ["linkText=Husvagnar & husbilar (999)", "linkText"],
-        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=Husvagn&r=23')]", "xpath:href"],
-        ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+        ["linkText=Isabella loggia 400", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/isabella_loggia_400/107705753')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Isabella loggia 400')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "4bf710c3-25b5-4743-83b9-013f4d8eeab3",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Husvagn (888)",
-      "targets": [
-        ["linkText=Husvagn (888)", "linkText"],
-        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar/husvagn?cg=1101&q=Husvagn&r=23')]", "xpath:href"],
-        ["xpath=//ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagn (888)')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "8ac5ca5b-d043-4ae8-a3a2-de8c50df3fa8",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2",
-      "targets": [
-        ["css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/nav/ol/li[7]/div", "xpath:idRelative"],
-        ["xpath=//li[7]/div", "xpath:position"]
-      ],
-      "value": "2000"
-    }, {
-      "id": "1c800661-f441-4c4c-89f5-c1308e6ea8c8",
+      "id": "240d39ee-d3bf-4b61-922c-07f1bb096bc6",
       "comment": "",
       "command": "storeText",
-      "target": "css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2",
+      "target": "css=.Hero__StyledSubject-sc-1mjgwl-4",
       "targets": [
-        ["css=.Breadcrumb__ActiveBreadcrumb-sc-1ygccid-2", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/nav/ol/li[7]/div", "xpath:idRelative"],
-        ["xpath=//li[7]/div", "xpath:position"]
+        ["css=.Hero__StyledSubject-sc-1mjgwl-4", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/article/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Weber Q3200')]", "xpath:innerText"]
       ],
-      "value": "Category-outside"
+      "value": "objecttwo"
     }, {
-      "id": "2d29d8e4-2566-458e-be21-9f04790d2301",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Cabby 510",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "c0d50fbe-e50d-42aa-a91c-174b9002837f",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
-      "targets": [
-        ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div/div/nav/ol/li[7]/a/div", "xpath:idRelative"],
-        ["xpath=//li[7]/a/div", "xpath:position"]
-      ],
-      "value": "2000"
-    }, {
-      "id": "5648c8b9-10ab-44ba-9410-571463d4ee2d",
-      "comment": "",
-      "command": "storeText",
-      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
-      "targets": [
-        ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(7) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div/div/nav/ol/li[7]/a/div", "xpath:idRelative"],
-        ["xpath=//li[7]/a/div", "xpath:position"]
-      ],
-      "value": "Category-inside"
-    }, {
-      "id": "8c036d72-a452-4035-8af5-275ac0af83b6",
+      "id": "88230e88-cf8d-4cc7-92d9-d48a60023760",
       "comment": "",
       "command": "verify",
-      "target": "Category-outside",
+      "target": "objectone",
       "targets": [],
-      "value": "${Category-inside}"
+      "value": "${objecttwo}"
     }]
   }, {
     "id": "be81c956-ff94-4594-80bc-6c3663aa0942",
@@ -1640,7 +1594,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
+    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
