@@ -249,6 +249,17 @@
       ],
       "value": "Oculus quest 2"
     }, {
+      "id": "4a1ea2cb-811b-4122-9052-89c0887a8bc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "16a1ebad-d057-4845-a9f3-132cb8725819",
       "comment": "",
       "command": "click",
