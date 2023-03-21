@@ -251,7 +251,7 @@
     }, {
       "id": "26005faf-283f-4f0f-b687-4ffbc48d20c4",
       "comment": "",
-      "command": "select",
+      "command": "//click",
       "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
       "targets": [],
       "value": "label=Skåne"
