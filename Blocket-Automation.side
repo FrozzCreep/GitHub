@@ -289,10 +289,10 @@
     }, {
       "id": "4f957333-9fcd-4666-9eb7-7cb875c759b6",
       "comment": "",
-      "command": "storeText",
+      "command": "click",
       "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
       "targets": [],
-      "value": "BeforeSearch"
+      "value": ""
     }, {
       "id": "adb34e12-593f-48e7-8a1c-233a0fdf9349",
       "comment": "",
@@ -328,13 +328,6 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'\"Oculus quest 2\" - Säljes i Skåne')]", "xpath:innerText"]
       ],
-      "value": "AfterSearch"
-    }, {
-      "id": "9789123c-b1bb-4a13-8b17-a76b1017f719",
-      "comment": "",
-      "command": "storeText",
-      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
-      "targets": [],
       "value": "AfterSearch"
     }, {
       "id": "f449c86d-9288-43d1-b82f-65606e98a046",
@@ -724,6 +717,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "18c8aa74-3a7f-4fdd-8fcc-f8eebaed0b24",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
       "comment": "",
       "command": "type",
@@ -751,7 +751,7 @@
       "id": "58ac4e76-3daf-4091-91c7-6f64a2a39366",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (999)",
+      "target": "linkText=Husvagnar & husbilar (1 030)",
       "targets": [
         ["linkText=Husvagnar & husbilar (999)", "linkText"],
         ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
@@ -1552,7 +1552,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "943c9f30-47da-448d-ad0b-8f7f212ac14b", "e28ef9df-8d10-4a34-ae73-944408bc3f48"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
