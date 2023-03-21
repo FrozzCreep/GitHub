@@ -1467,6 +1467,55 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "b68643f3-1c49-4e1b-a68b-89886abf3888",
+    "name": "Does searching work? (1)",
+    "commands": [{
+      "id": "f9b31524-c0e5-4426-b53a-3def56f425f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4324cd27-994e-4541-8872-fe7844404f72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51442b92-ce61-40bf-aa28-1604eabf5a4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d300ce76-0425-4f98-b094-cbe98797229a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1db47cd9-4ac1-4317-a8ca-340f3cd34a05",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oculus Quest 2"
+    }]
   }],
   "suites": [{
     "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
@@ -1474,7 +1523,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677"]
+    "tests": ["b68643f3-1c49-4e1b-a68b-89886abf3888"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
