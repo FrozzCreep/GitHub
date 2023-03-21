@@ -290,6 +290,13 @@
       ],
       "value": "BeforeSearch"
     }, {
+      "id": "4f957333-9fcd-4666-9eb7-7cb875c759b6",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [],
+      "value": "BeforeSearch"
+    }, {
       "id": "adb34e12-593f-48e7-8a1c-233a0fdf9349",
       "comment": "",
       "command": "type",
@@ -331,6 +338,13 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'\"Oculus quest 2\" - Säljes i Skåne')]", "xpath:innerText"]
       ],
+      "value": "AfterSearch"
+    }, {
+      "id": "9789123c-b1bb-4a13-8b17-a76b1017f719",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SmallLayout__TopRow-sc-1logo21-2",
+      "targets": [],
       "value": "AfterSearch"
     }, {
       "id": "f449c86d-9288-43d1-b82f-65606e98a046",
