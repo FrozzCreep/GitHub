@@ -169,7 +169,18 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Oculus quest 1"
+      "value": "Oculus quest"
+    }, {
+      "id": "fdea4eee-36c3-4048-b567-c3fbf760a02d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
     }, {
       "id": "58ec547a-c130-4590-9d84-5eaa5b1ee4a9",
       "comment": "",
@@ -192,13 +203,6 @@
         ["xpath=//div[3]/div/div/div", "xpath:position"]
       ],
       "value": "0 annonser"
-    }, {
-      "id": "4975af8a-cd89-4671-a01e-5279d3837f22",
-      "comment": "",
-      "command": "assertElementNotPresent",
-      "target": "linkText=Vr Headset Oculus Quest 2",
-      "targets": [],
-      "value": "5000"
     }]
   }, {
     "id": "943c9f30-47da-448d-ad0b-8f7f212ac14b",
@@ -271,13 +275,6 @@
       ],
       "value": ""
     }, {
-      "id": "0bf63a88-7c05-47e9-a3a8-f7d86c038024",
-      "comment": "",
-      "command": "pause",
-      "target": "",
-      "targets": [],
-      "value": "3000"
-    }, {
       "id": "ded06175-a0c6-443d-9ac5-e4f99afca9ad",
       "comment": "",
       "command": "storeText",
@@ -320,13 +317,6 @@
         ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "fd106985-eb8f-4c78-a340-f239d96dd7a0",
-      "comment": "",
-      "command": "pause",
-      "target": "",
-      "targets": [],
-      "value": "3000"
     }, {
       "id": "2bddd3d8-b5a9-45f0-9cf3-442dfaefae39",
       "comment": "",
@@ -1562,7 +1552,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["b68643f3-1c49-4e1b-a68b-89886abf3888", "943c9f30-47da-448d-ad0b-8f7f212ac14b"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
