@@ -185,11 +185,13 @@
       "id": "58ec547a-c130-4590-9d84-5eaa5b1ee4a9",
       "comment": "",
       "command": "click",
-      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
       "targets": [
-        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
-        ["xpath=//button/span/div", "xpath:position"]
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
