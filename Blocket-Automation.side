@@ -25,13 +25,7 @@
       "comment": "",
       "command": "click",
       "target": "id=accept-ufti",
-      "targets": [
-        ["id=accept-ufti", "id"],
-        ["css=#accept-ufti", "css:finder"],
-        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
-        ["xpath=//button[2]", "xpath:position"],
-        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "688d9415-6be4-4564-ab4f-f4f24f8740cb",
@@ -70,6 +64,17 @@
       ],
       "value": "BeforeSearch"
     }, {
+      "id": "6e14ee89-737e-4515-90d1-2ad3f754e567",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
+      "targets": [
+        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "96fbf2b0-0526-4c93-a313-a1e79681ead0",
       "comment": "",
       "command": "click",
@@ -81,20 +86,9 @@
       ],
       "value": ""
     }, {
-      "id": "dc68531b-4409-4059-8ddf-d8a4ffadd40c",
-      "comment": "",
-      "command": "click",
-      "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
-      "targets": [
-        ["css=.GeoDropdown__StyledSelect-sc-l040xh-1", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[5]/label/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "ff7da64e-8e7f-492a-836f-8c8876b9607b",
       "comment": "",
-      "command": "select",
+      "command": "click",
       "target": "css=.GeoDropdown__StyledSelect-sc-l040xh-1",
       "targets": [],
       "value": "label=Blekinge"
@@ -155,6 +149,13 @@
       "comment": "",
       "command": "setWindowSize",
       "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb9e4f1f-ea00-4536-bf19-14395b83b809",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
       "targets": [],
       "value": ""
     }, {
@@ -1473,7 +1474,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["e93f58a1-ff78-4ad6-9a64-3e624e5855fa"]
+    "tests": ["e93f58a1-ff78-4ad6-9a64-3e624e5855fa", "812b0afb-ae85-4901-a43c-5b95bb467677"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
