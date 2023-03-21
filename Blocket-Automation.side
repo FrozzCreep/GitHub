@@ -220,7 +220,7 @@
     }, {
       "id": "fef8249b-044e-4cdb-88a9-e31c0069289e",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
