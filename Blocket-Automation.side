@@ -724,6 +724,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "81df88b1-21f5-4ad7-b476-32a6360efb50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
       "comment": "",
       "command": "type",
@@ -735,6 +742,17 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": "husvagn"
+    }, {
+      "id": "5910ab5b-394c-4d98-81d4-c345a9a76b28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0",
+      "targets": [
+        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
     }, {
       "id": "0470d654-ab56-43cd-a3ac-7f81819a3faa",
       "comment": "",
