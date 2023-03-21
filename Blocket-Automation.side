@@ -769,7 +769,7 @@
       "id": "58ac4e76-3daf-4091-91c7-6f64a2a39366",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (1 030)",
+      "target": "linkText=Husvagnar & husbilar (6 503)",
       "targets": [
         ["linkText=Husvagnar & husbilar (999)", "linkText"],
         ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
