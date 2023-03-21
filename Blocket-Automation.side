@@ -220,7 +220,7 @@
     }, {
       "id": "fef8249b-044e-4cdb-88a9-e31c0069289e",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
@@ -260,6 +260,13 @@
       ],
       "value": ""
     }, {
+      "id": "0bf63a88-7c05-47e9-a3a8-f7d86c038024",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "300"
+    }, {
       "id": "ded06175-a0c6-443d-9ac5-e4f99afca9ad",
       "comment": "",
       "command": "storeText",
@@ -295,6 +302,13 @@
         ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "fd106985-eb8f-4c78-a340-f239d96dd7a0",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "300"
     }, {
       "id": "2bddd3d8-b5a9-45f0-9cf3-442dfaefae39",
       "comment": "",
