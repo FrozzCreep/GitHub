@@ -218,6 +218,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "fef8249b-044e-4cdb-88a9-e31c0069289e",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "f8f312e7-d87b-4ced-9d08-129e47442edc",
       "comment": "",
       "command": "click",
@@ -1469,7 +1476,7 @@
     }]
   }, {
     "id": "b68643f3-1c49-4e1b-a68b-89886abf3888",
-    "name": "Does searching work? (1)",
+    "name": "Does searching work? (pass-test)",
     "commands": [{
       "id": "f9b31524-c0e5-4426-b53a-3def56f425f5",
       "comment": "",
@@ -1523,7 +1530,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["b68643f3-1c49-4e1b-a68b-89886abf3888"]
+    "tests": ["b68643f3-1c49-4e1b-a68b-89886abf3888", "943c9f30-47da-448d-ad0b-8f7f212ac14b"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
