@@ -276,7 +276,7 @@
       "command": "pause",
       "target": "",
       "targets": [],
-      "value": "300"
+      "value": "3000"
     }, {
       "id": "ded06175-a0c6-443d-9ac5-e4f99afca9ad",
       "comment": "",
@@ -319,7 +319,7 @@
       "command": "pause",
       "target": "",
       "targets": [],
-      "value": "300"
+      "value": "3000"
     }, {
       "id": "2bddd3d8-b5a9-45f0-9cf3-442dfaefae39",
       "comment": "",
