@@ -579,7 +579,7 @@
     }, {
       "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
       "comment": "",
-      "command": "click",
+      "command": "doubleClick",
       "target": "css=.TabBarstyles__NavBar-sc-1csy6k6-1",
       "targets": [
         ["css=.TabBarstyles__NavBar-sc-1csy6k6-1", "css:finder"],
