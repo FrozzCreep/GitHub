@@ -657,7 +657,7 @@
     }, {
       "id": "18c8aa74-3a7f-4fdd-8fcc-f8eebaed0b24",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
@@ -694,14 +694,21 @@
       "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a",
-      "targets": [],
+      "target": "css=.slick-slide:nth-child(2) .Link-sc-6wulv7-0",
+      "targets": [
+        ["linkText=Toyota Tundra PLATINUM 1794 Sp. Edt HYRBID HEV 443HK / 790NM", "linkText"],
+        ["css=.slick-slide:nth-child(2) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://c.eacla.com/clc.php?ai=3654238&bi=4777563&pi=421&ci=189868&price_id=&t=1679565820&s=usTfDFxA1cf9sVwpxcORXpPagGMuOUB7hSjuw%2BTxgLw%3D&tid=1157&url=https%3A%2F%2Fwww.blocket.se%2Fannons%2Fstockholm%2Ftoyota_tundra_platinum_1794_sp_edt_hyrbid_bev_443hk_790nm%2F106987358')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/article/div[2]/div[2]/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Toyota Tundra PLATINUM 1794 Sp. Edt HYRBID HEV 443HK / 790NM')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "5910ab5b-394c-4d98-81d4-c345a9a76b28",
       "comment": "",
       "command": "storeText",
-      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(3) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
+      "target": "xpath=//li[3]/a/div",
       "targets": [
         ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(3) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
         ["xpath=//div[@id='skip-tabbar']/div[2]/div/nav/ol/li[3]/a/div", "xpath:idRelative"],
