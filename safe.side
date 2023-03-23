@@ -657,7 +657,7 @@
     }, {
       "id": "18c8aa74-3a7f-4fdd-8fcc-f8eebaed0b24",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
