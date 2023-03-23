@@ -544,24 +544,10 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "b5d23f09-d2a7-4c93-8bcd-99bee784d431",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1000x800",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "71fdbdf0-4366-43d5-9fa8-aa7a99efab97",
       "comment": "",
       "command": "click",
       "target": "id=accept-ufti",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "bb519b81-1237-4cc3-8e54-f985f1c913d0",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
@@ -1519,10 +1505,24 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "02efb1b3-a137-423c-ada4-5162eb8c8c9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x800",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
       "comment": "",
       "command": "click",
       "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f038be5-6f3d-43a4-ab96-3cdda7b35c6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
@@ -1682,7 +1682,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
+    "tests": ["dc983b9b-69c1-4a4f-b8c3-513626738912"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
