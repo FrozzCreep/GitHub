@@ -1709,7 +1709,7 @@
       "id": "b6e04d9c-207a-4062-98a6-4eaeacb68005",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x800",
+      "target": "1100x1100",
       "targets": [],
       "value": ""
     }, {
@@ -1717,7 +1717,13 @@
       "comment": "",
       "command": "storeText",
       "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0",
-      "targets": [],
+      "targets": [
+        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Företag')]", "xpath:innerText"]
+      ],
       "value": "objectone"
     }, {
       "id": "7c073394-7201-46a6-879f-6e9374338877",
@@ -1737,12 +1743,12 @@
       "command": "click",
       "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Isabella loggia 400", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/isabella_loggia_400/107705753')]", "xpath:href"],
+        ["linkText=Yamaha FZR 600", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/kronoberg/yamaha_fzr_600/107738178')]", "xpath:href"],
         ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Isabella loggia 400')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Yamaha FZR 600')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
