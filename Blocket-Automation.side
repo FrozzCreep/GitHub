@@ -561,7 +561,7 @@
       "id": "3509ad5a-7804-44af-975b-4e144bfb92c2",
       "comment": "",
       "command": "click",
-      "target": "css=.ConsentOptions__OptionSection-sc-ew7mtm-0:nth-child(1) #no",
+      "target": "id=no",
       "targets": [],
       "value": ""
     }, {
