@@ -226,7 +226,7 @@
     }, {
       "id": "fef8249b-044e-4cdb-88a9-e31c0069289e",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
@@ -651,8 +651,122 @@
       "id": "a0bfe85c-02ea-428e-b528-0b8a289f6da5",
       "comment": "",
       "command": "setWindowSize",
-      "target": "700x700",
+      "target": "1000x800",
       "targets": [],
+      "value": ""
+    }, {
+      "id": "e9cb5e77-86f7-4004-b1b8-499a75714d10",
+      "comment": "",
+      "command": "//click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c680f2df-8857-4f0b-a855-6147430cae3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad2ed4c-123e-41a8-ab30-388645215717",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Xbox One']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Xbox One"
+    }, {
+      "id": "50819095-6240-4a26-8e03-4bf04d3a5d59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0",
+      "targets": [
+        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8444eaee-5508-4641-8a56-183356370d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41030d69-b986-457e-b2ce-86044b8f6cc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .gPwqWx > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=div:nth-child(2) > .gPwqWx > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Privat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae5791b-c73c-4cbd-8bf1-c923cfe7eeef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0b7d35-929b-4799-8da7-8eabb21ca6bf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Xbox One S']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Xbox One S"
+    }, {
+      "id": "9b6d4a78-4d41-4817-a7a9-7c7a45e43e97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0b3951-4ee8-4f03-b873-7390327a6ddb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
       "value": ""
     }]
   }, {
@@ -1589,6 +1703,116 @@
       ],
       "value": "0 annonser"
     }]
+  }, {
+    "id": "e7a75200-47e0-40a8-948c-7d707392066f",
+    "name": "Filter function",
+    "commands": [{
+      "id": "9b76525e-212d-4e61-af24-5f0b6c3dab97",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb14faf3-301d-4085-9c9c-6e2951026cce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "399c21e4-27d3-4617-9957-90403d4d52c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f45ab95-3cbc-412d-a1f8-e41ecdbf249e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Playstation"
+    }, {
+      "id": "c72c736d-e4c1-4616-a2c7-e799e502d442",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00093498-3cc9-4db8-9093-a7421fbcc675",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ad0018b-f58e-43c0-82a1-6c7570025bcb",
+      "comment": "",
+      "command": "click",
+      "target": "id=sort-select",
+      "targets": [
+        ["id=sort-select", "id"],
+        ["css=#sort-select", "css:finder"],
+        ["xpath=//select[@id='sort-select']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[3]/div[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d62805-8427-4399-9913-47211288ca71",
+      "comment": "",
+      "command": "select",
+      "target": "id=sort-select",
+      "targets": [],
+      "value": "label=Dyrast"
+    }, {
+      "id": "2153da49-7b01-4c19-af59-86d179932422",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h2/a",
+      "targets": [
+        ["linkText=Segway Ninebot Gokart Pro Electrisk Go Kart", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/segway_ninebot_gokart_pro_electrisk_go_kart/106634772')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Segway Ninebot Gokart Pro Electrisk Go Kart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "330919a7-7b28-4840-91cd-4bb54741e064",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Hero__StyledSubject-sc-1mjgwl-4",
+      "targets": [
+        ["css=.Hero__StyledSubject-sc-1mjgwl-4", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/article/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Segway Ninebot Gokart Pro Electrisk Go Kart')]", "xpath:innerText"]
+      ],
+      "value": "objectone"
+    }, {
+      "id": "865198cd-abc8-4189-8ebe-189c38480be9",
+      "comment": "",
+      "command": "Go back",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
@@ -1596,7 +1820,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
+    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
