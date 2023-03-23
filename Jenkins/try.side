@@ -136,7 +136,7 @@
     }]
   }, {
     "id": "812b0afb-ae85-4901-a43c-5b95bb467677",
-    "name": "No results (fail)",
+    "name": "No results (pass)",
     "commands": [{
       "id": "5c821ba1-efe0-42db-ac81-23f3f232bc73",
       "comment": "",
@@ -169,7 +169,7 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Oculus quest"
+      "value": "Oculus quest 32123"
     }, {
       "id": "fdea4eee-36c3-4048-b567-c3fbf760a02d",
       "comment": "",
