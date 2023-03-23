@@ -573,8 +573,12 @@
       "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
       "comment": "",
       "command": "click",
-      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [],
+      "target": "css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0",
+      "targets": [
+        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
@@ -584,9 +588,9 @@
       "targets": [
         ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
-        ["xpath=//div[4]/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitta annonser')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
