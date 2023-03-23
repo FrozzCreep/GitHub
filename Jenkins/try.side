@@ -154,7 +154,7 @@
     }, {
       "id": "cb9e4f1f-ea00-4536-bf19-14395b83b809",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
@@ -1528,7 +1528,7 @@
     }, {
       "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
