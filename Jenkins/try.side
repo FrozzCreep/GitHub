@@ -136,7 +136,7 @@
     }]
   }, {
     "id": "812b0afb-ae85-4901-a43c-5b95bb467677",
-    "name": "No results (pass)",
+    "name": "No results (p)",
     "commands": [{
       "id": "5c821ba1-efe0-42db-ac81-23f3f232bc73",
       "comment": "",
@@ -1510,7 +1510,7 @@
     }]
   }, {
     "id": "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a",
-    "name": "Windows resizing (pass)",
+    "name": "Windows resizing (p)",
     "commands": [{
       "id": "24500c12-c911-4bab-87e9-fff3fcb1e2a5",
       "comment": "",
