@@ -1651,10 +1651,31 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
+      "id": "77451e9a-6c9d-45d1-8ccd-2f722afc1f0f",
       "comment": "",
       "command": "click",
+      "target": "css=#accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
+      "comment": "",
+      "command": "//click",
       "target": "xpath=//button[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a4c970-5863-4410-8c9d-b1d2ffc9faad",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//button[@id='accept-ufti']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8074097b-e3fc-44ef-bd4a-0f52a7a99e61",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//button[contains(.,'Jag samtycker')]",
       "targets": [],
       "value": ""
     }, {
