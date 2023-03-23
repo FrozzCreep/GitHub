@@ -540,7 +540,7 @@
       "id": "bb36602f-3d53-41b5-ae07-d80215b7228d",
       "comment": "",
       "command": "open",
-      "target": "https://www.blocket.se",
+      "target": "https://www.blocket.se/",
       "targets": [],
       "value": ""
     }, {
@@ -607,7 +607,7 @@
       "id": "b1023d24-c1ee-48d7-8875-1704672a155e",
       "comment": "",
       "command": "click",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0",
+      "target": "xpath=//h2/a",
       "targets": [
         ["linkText=Isabella loggia 400", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
