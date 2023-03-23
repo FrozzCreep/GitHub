@@ -1654,7 +1654,7 @@
       "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
       "comment": "",
       "command": "click",
-      "target": "id=accept-ufti",
+      "target": "xpath=//button[2]",
       "targets": [],
       "value": ""
     }, {
