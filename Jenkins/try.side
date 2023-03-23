@@ -1649,6 +1649,126 @@
       "targets": [],
       "value": "${objecttwo}"
     }]
+  }, {
+    "id": "90d0f068-e54b-4f0b-b898-4e2e3547dc10",
+    "name": "Verify company ",
+    "commands": [{
+      "id": "631da543-5c0e-4048-9600-96fc6c99d6d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12c43491-dbf7-4008-9f7b-58fb3aa4b15c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1165c077-ffcf-488b-ab1d-3b3b58fd2a2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25081dbc-b79c-4772-8fff-01f16d4280c9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Husvagn"
+    }, {
+      "id": "fff0e4c7-c1cd-4234-a9fe-d9308ff98b21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ad373d7-f2c8-4267-a9bc-ee56a2ad2caa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6e04d9c-207a-4062-98a6-4eaeacb68005",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1100x1100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2e8e9d1-4530-443a-945b-73f8c28ba758",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Företag')]", "xpath:innerText"]
+      ],
+      "value": "objectone"
+    }, {
+      "id": "7c073394-7201-46a6-879f-6e9374338877",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [
+        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Företag')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f9e45c-2102-4efb-88f6-1f19187c34a1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h2/a",
+      "targets": [
+        ["linkText=Yamaha FZR 600", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/kronoberg/yamaha_fzr_600/107738178')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Yamaha FZR 600')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9500710a-8af4-4d7d-938c-03a726ecb7b6",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
+      "targets": [
+        ["css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/div[2]/div/div/article/div/div[2]/div[5]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "objecttwo"
+    }, {
+      "id": "e83949d1-5e55-48d9-a0bd-08df3b0795c9",
+      "comment": "",
+      "command": "verify",
+      "target": "objectone",
+      "targets": [],
+      "value": "${objecttwo}"
+    }]
   }],
   "suites": [{
     "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
@@ -1656,7 +1776,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912", "90d0f068-e54b-4f0b-b898-4e2e3547dc10"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
