@@ -535,7 +535,7 @@
     }]
   }, {
     "id": "dc983b9b-69c1-4a4f-b8c3-513626738912",
-    "name": "Verify advertisement name",
+    "name": "Verify advertisement name (p)",
     "commands": [{
       "id": "bb36602f-3d53-41b5-ae07-d80215b7228d",
       "comment": "",

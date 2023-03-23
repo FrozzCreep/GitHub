@@ -535,7 +535,7 @@
     }]
   }, {
     "id": "dc983b9b-69c1-4a4f-b8c3-513626738912",
-    "name": "Verify advertisement name",
+    "name": "Verify advertisement name (p)",
     "commands": [{
       "id": "bb36602f-3d53-41b5-ae07-d80215b7228d",
       "comment": "",
@@ -544,24 +544,17 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "b5d23f09-d2a7-4c93-8bcd-99bee784d431",
+      "id": "bb519b81-1237-4cc3-8e54-f985f1c913d0",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x1000",
+      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
       "id": "71fdbdf0-4366-43d5-9fa8-aa7a99efab97",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "id=accept-ufti",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "bb519b81-1237-4cc3-8e54-f985f1c913d0",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
@@ -577,17 +570,10 @@
       ],
       "value": "Husvagn"
     }, {
-      "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
-      "comment": "",
-      "command": "click",
-      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
       "comment": "",
       "command": "click",
-      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
       "targets": [
         ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
@@ -595,6 +581,13 @@
         ["xpath=//div[4]/div/button", "xpath:position"],
         ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "f457fb6c-0327-4fbf-85d4-396c15d9e236",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [],
       "value": ""
     }, {
       "id": "f23c4306-3d8a-49c6-bedd-e084f2adbae4",
@@ -1663,7 +1656,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
