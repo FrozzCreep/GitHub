@@ -226,7 +226,7 @@
     }, {
       "id": "fef8249b-044e-4cdb-88a9-e31c0069289e",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
@@ -547,22 +547,32 @@
       "id": "b5d23f09-d2a7-4c93-8bcd-99bee784d431",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x800",
+      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
-      "id": "71fdbdf0-4366-43d5-9fa8-aa7a99efab97",
+      "id": "8f16e67a-1fc5-4cdc-8dc6-8d4e433c71c3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.InfoPage__ConsentText-sc-ah6b76-18",
+      "targets": [
+        ["css=.InfoPage__ConsentText-sc-ah6b76-18", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Vi vill också fråga dig om samtycke för följande aktiviteter: Samtycker du till att vi delar data med Facebook och Google för att kunna marknadsföra Blockets tjänster på ett relevant sätt på Facebooks plattformar och inom Googles nätverk?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cfb212d-73e4-4ccb-b5e5-98244999e37f",
       "comment": "",
       "command": "click",
       "target": "id=accept-ufti",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "bb519b81-1237-4cc3-8e54-f985f1c913d0",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "700x700",
-      "targets": [],
+      "targets": [
+        ["id=accept-ufti", "id"],
+        ["css=#accept-ufti", "css:finder"],
+        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "3a86835b-2d87-4452-b2e6-4f8dbbb331f7",
@@ -581,7 +591,11 @@
       "comment": "",
       "command": "click",
       "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [],
+      "targets": [
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
@@ -602,26 +616,26 @@
       "command": "storeText",
       "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Weber Q3200", "linkText"],
+        ["linkText=Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
         ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/weber_q3200/107714003')]", "xpath:href"],
+        ["xpath=//a[contains(@href, '/annons/skaraborg/skoda_superb_2_0_tdi_4x4_dsg_l_k_euro6_190hk/107736559')]", "xpath:href"],
         ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Weber Q3200')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk')]", "xpath:innerText"]
       ],
       "value": "objectone"
     }, {
       "id": "b1023d24-c1ee-48d7-8875-1704672a155e",
       "comment": "",
       "command": "click",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0",
+      "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Isabella loggia 400", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/isabella_loggia_400/107705753')]", "xpath:href"],
+        ["linkText=Adria Adora 573PT", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/adria_adora_573pt/107735940')]", "xpath:href"],
         ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Isabella loggia 400')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Adria Adora 573PT')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -633,7 +647,7 @@
         ["css=.Hero__StyledSubject-sc-1mjgwl-4", "css:finder"],
         ["xpath=//div[@id='skip-tabbar']/div[2]/article/div/div[2]/h1", "xpath:idRelative"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Weber Q3200')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk')]", "xpath:innerText"]
       ],
       "value": "objecttwo"
     }, {
@@ -643,6 +657,138 @@
       "target": "objectone",
       "targets": [],
       "value": "${objecttwo}"
+    }]
+  }, {
+    "id": "be81c956-ff94-4594-80bc-6c3663aa0942",
+    "name": "Change size - Search button",
+    "commands": [{
+      "id": "c93717ad-9986-4fb5-a8ad-0af2feaa33ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blocket.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0bfe85c-02ea-428e-b528-0b8a289f6da5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9cb5e77-86f7-4004-b1b8-499a75714d10",
+      "comment": "",
+      "command": "//click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c680f2df-8857-4f0b-a855-6147430cae3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad2ed4c-123e-41a8-ab30-388645215717",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Xbox One']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Xbox One"
+    }, {
+      "id": "50819095-6240-4a26-8e03-4bf04d3a5d59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0",
+      "targets": [
+        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8444eaee-5508-4641-8a56-183356370d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41030d69-b986-457e-b2ce-86044b8f6cc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .gPwqWx > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=div:nth-child(2) > .gPwqWx > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Privat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae5791b-c73c-4cbd-8bf1-c923cfe7eeef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0b7d35-929b-4799-8da7-8eabb21ca6bf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='Xbox One S']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Xbox One S"
+    }, {
+      "id": "9b6d4a78-4d41-4817-a7a9-7c7a45e43e97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0b3951-4ee8-4f03-b873-7390327a6ddb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=.cDakEI > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/form/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sök')]", "xpath:innerText"]
+      ],
+      "value": ""
     }]
   }, {
     "id": "e28ef9df-8d10-4a34-ae73-944408bc3f48",
@@ -721,7 +867,7 @@
         ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=23')]", "xpath:href"],
         ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -813,7 +959,7 @@
         ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/annonser/kalmar/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=18')]", "xpath:href"],
         ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (238)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (238)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -912,7 +1058,7 @@
         ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=23')]", "xpath:href"],
         ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (999)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1030,7 +1176,7 @@
         ["xpath=//div[@id='__next']/div/main/div[3]/div/ul/li/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/annonser/skane/fordon/bilar?cg=1020&r=23')]", "xpath:href"],
         ["xpath=//ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Bilar (16 156)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Bilar (16 156)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1419,7 +1565,7 @@
         ["xpath=//div[@id='skip-tabbar']/div[3]/div/div/ul/li[2]/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/annonser/hela_sverige/elektronik/telefoner_tillbehor?cg=5060&q=Oculus%20quest%202')]", "xpath:href"],
         ["xpath=//li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Telefoner & tillbehör (1)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Telefoner & tillbehör (1)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1510,7 +1656,7 @@
     }]
   }, {
     "id": "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a",
-    "name": "No results",
+    "name": "No results (pass)",
     "commands": [{
       "id": "24500c12-c911-4bab-87e9-fff3fcb1e2a5",
       "comment": "",
@@ -1522,21 +1668,35 @@
       "id": "02efb1b3-a137-423c-ada4-5162eb8c8c9f",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x800",
+      "target": "700x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77451e9a-6c9d-45d1-8ccd-2f722afc1f0f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#accept-ufti",
       "targets": [],
       "value": ""
     }, {
       "id": "0dc3f552-fbc3-40da-95b2-bca02d604309",
       "comment": "",
-      "command": "click",
-      "target": "id=accept-ufti",
+      "command": "//click",
+      "target": "xpath=//button[2]",
       "targets": [],
       "value": ""
     }, {
-      "id": "1f038be5-6f3d-43a4-ab96-3cdda7b35c6a",
+      "id": "e7a4c970-5863-4410-8c9d-b1d2ffc9faad",
       "comment": "",
-      "command": "setWindowSize",
-      "target": "700x700",
+      "command": "click",
+      "target": "xpath=//button[@id='accept-ufti']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8074097b-e3fc-44ef-bd4a-0f52a7a99e61",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//button[contains(.,'Jag samtycker')]",
       "targets": [],
       "value": ""
     }, {
@@ -1550,7 +1710,7 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Oculus quest 32123"
+      "value": "Oculus quest 321"
     }, {
       "id": "9f779605-2c20-4636-a3c9-ed1ae3e8cd97",
       "comment": "",
@@ -1586,31 +1746,31 @@
       "value": "0 annonser"
     }]
   }, {
-    "id": "1febcb18-af1f-4512-be91-5c776958b3fe",
-    "name": "Search button - Change size",
+    "id": "e7a75200-47e0-40a8-948c-7d707392066f",
+    "name": "Filter function",
     "commands": [{
-      "id": "91e720af-b1e1-4540-9e12-466043d1f235",
+      "id": "9b76525e-212d-4e61-af24-5f0b6c3dab97",
       "comment": "",
       "command": "open",
       "target": "https://www.blocket.se",
       "targets": [],
       "value": ""
     }, {
-      "id": "d95f8ea6-ed70-4b25-95cc-65b77a554464",
+      "id": "bb14faf3-301d-4085-9c9c-6e2951026cce",
       "comment": "",
       "command": "setWindowSize",
       "target": "700x700",
       "targets": [],
       "value": ""
     }, {
-      "id": "70eeb4cf-515a-439d-82ed-dc1696db5442",
+      "id": "399c21e4-27d3-4617-9957-90403d4d52c5",
       "comment": "",
       "command": "click",
       "target": "id=accept-ufti",
       "targets": [],
       "value": ""
     }, {
-      "id": "6410912b-2ee7-4e9b-bb70-173ebb17de78",
+      "id": "7f45ab95-3cbc-412d-a1f8-e41ecdbf249e",
       "comment": "",
       "command": "type",
       "target": "css=.react-autosuggest__input",
@@ -1620,16 +1780,16 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Husvagn"
+      "value": "Playstation"
     }, {
-      "id": "9a4ba2dd-18e8-4498-8801-b8701fa6a305",
+      "id": "c72c736d-e4c1-4616-a2c7-e799e502d442",
       "comment": "",
       "command": "click",
       "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
       "targets": [],
       "value": ""
     }, {
-      "id": "4f154180-6009-4f9c-a8ed-0b9be6aa8b79",
+      "id": "00093498-3cc9-4db8-9093-a7421fbcc675",
       "comment": "",
       "command": "click",
       "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
@@ -1642,35 +1802,41 @@
       ],
       "value": ""
     }, {
-      "id": "46c3a0b7-bafe-4ea1-ad56-68faafadef2a",
-      "comment": "",
-      "command": "storeText",
-      "target": "xpath=//h2/a",
-      "targets": [
-        ["linkText=Weber Q3200", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/weber_q3200/107714003')]", "xpath:href"],
-        ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Weber Q3200')]", "xpath:innerText"]
-      ],
-      "value": "objectone"
-    }, {
-      "id": "56845127-b85c-4ac5-bac3-828eb7485243",
+      "id": "7ad0018b-f58e-43c0-82a1-6c7570025bcb",
       "comment": "",
       "command": "click",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0",
+      "target": "id=sort-select",
       "targets": [
-        ["linkText=Isabella loggia 400", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/isabella_loggia_400/107705753')]", "xpath:href"],
-        ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Isabella loggia 400')]", "xpath:innerText"]
+        ["id=sort-select", "id"],
+        ["css=#sort-select", "css:finder"],
+        ["xpath=//select[@id='sort-select']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div[4]/div/div[3]/div[2]/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "717bf47c-1038-4bda-98ac-39b24b4c74c5",
+      "id": "e9d62805-8427-4399-9913-47211288ca71",
+      "comment": "",
+      "command": "select",
+      "target": "id=sort-select",
+      "targets": [],
+      "value": "label=Dyrast"
+    }, {
+      "id": "2153da49-7b01-4c19-af59-86d179932422",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h2/a",
+      "targets": [
+        ["linkText=Segway Ninebot Gokart Pro Electrisk Go Kart", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/segway_ninebot_gokart_pro_electrisk_go_kart/106634772')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Segway Ninebot Gokart Pro Electrisk Go Kart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "330919a7-7b28-4840-91cd-4bb54741e064",
       "comment": "",
       "command": "storeText",
       "target": "css=.Hero__StyledSubject-sc-1mjgwl-4",
@@ -1678,16 +1844,16 @@
         ["css=.Hero__StyledSubject-sc-1mjgwl-4", "css:finder"],
         ["xpath=//div[@id='skip-tabbar']/div[2]/article/div/div[2]/h1", "xpath:idRelative"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Weber Q3200')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Segway Ninebot Gokart Pro Electrisk Go Kart')]", "xpath:innerText"]
       ],
-      "value": "objecttwo"
+      "value": "objectone"
     }, {
-      "id": "f30d5494-0010-4bca-a7d7-234407677b10",
+      "id": "865198cd-abc8-4189-8ebe-189c38480be9",
       "comment": "",
-      "command": "verify",
-      "target": "objectone",
+      "command": "Go back",
+      "target": "",
       "targets": [],
-      "value": "${objecttwo}"
+      "value": ""
     }]
   }],
   "suites": [{
@@ -1696,7 +1862,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
+    "tests": ["dc983b9b-69c1-4a4f-b8c3-513626738912"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
