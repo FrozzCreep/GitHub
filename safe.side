@@ -580,8 +580,12 @@
       "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
       "comment": "",
       "command": "click",
-      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [],
+      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "targets": [
+        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "ab10fc42-a10d-4fad-b0bc-fc31f9c11d73",
@@ -1663,7 +1667,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
