@@ -580,11 +580,11 @@
       "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
       "comment": "",
       "command": "click",
-      "target": "css=.SearchPancake__StyledSearch-sc-mnrjoh-0",
+      "target": "css=.TabBarstyles__NavBar-sc-1csy6k6-1",
       "targets": [
-        ["css=.SearchPancake__StyledSearch-sc-mnrjoh-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form", "xpath:idRelative"],
-        ["xpath=//form", "xpath:position"]
+        ["css=.TabBarstyles__NavBar-sc-1csy6k6-1", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div[2]", "xpath:idRelative"],
+        ["xpath=//header/div[2]", "xpath:position"]
       ],
       "value": ""
     }, {
