@@ -1663,7 +1663,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
