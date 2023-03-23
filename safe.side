@@ -639,7 +639,7 @@
     }]
   }, {
     "id": "e28ef9df-8d10-4a34-ae73-944408bc3f48",
-    "name": "Price - From & To",
+    "name": "Verify vehicle",
     "commands": [{
       "id": "49a2f8f4-0547-4b7e-88cc-d1a53f430241",
       "comment": "",
@@ -662,108 +662,59 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "81df88b1-21f5-4ad7-b476-32a6360efb50",
-      "comment": "",
-      "command": "click",
-      "target": "css=.react-autosuggest__input",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
-      "comment": "",
-      "command": "type",
-      "target": "css=.react-autosuggest__input",
-      "targets": [
-        ["css=.react-autosuggest__input", "css:finder"],
-        ["xpath=//input[@value='husvagn']", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "husvagn"
-    }, {
-      "id": "5910ab5b-394c-4d98-81d4-c345a9a76b28",
-      "comment": "",
-      "command": "click",
-      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [
-        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
-        ["xpath=//form/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0470d654-ab56-43cd-a3ac-7f81819a3faa",
-      "comment": "",
-      "command": "click",
-      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
-      "targets": [
-        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
-        ["xpath=//div[6]/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "7e4cca76-b663-4da0-b3b4-b6db65047576",
+      "id": "ab65b460-036a-48cc-ac6f-242e94dfdd8b",
       "comment": "",
       "command": "setWindowSize",
       "target": "1000x1000",
       "targets": [],
       "value": ""
     }, {
-      "id": "58ac4e76-3daf-4091-91c7-6f64a2a39366",
+      "id": "276d5e14-94dd-4ce1-a782-be29e10cc1de",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(2) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
+      "targets": [
+        ["css=li:nth-child(2) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": "objectone"
+    }, {
+      "id": "81df88b1-21f5-4ad7-b476-32a6360efb50",
       "comment": "",
       "command": "click",
-      "target": "xpath=//ul/li/a",
+      "target": "css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0",
       "targets": [
-        ["linkText=Husvagn (5 642)", "linkText"],
-        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/hela_sverige/fordon/husvagnar_husbilar/husvagn?cg=1101&q=husvagn')]", "xpath:href"],
-        ["xpath=//ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagn (5 642)')]", "xpath:innerText"]
+        ["css=li:nth-child(2) .icon__IconWrapper-sc-1r9z4sp-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "ec9868b6-3ee5-4598-b01e-126ba610fe18",
+      "id": "ab16aaa2-a033-4f20-acd9-1ec3f51d8150",
       "comment": "",
       "command": "click",
-      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
-      "targets": [
-        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8b0a4f90-8681-4b73-85a1-f4ea9db1fbfa",
-      "comment": "",
-      "command": "select",
-      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
-      "targets": [
-        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
-      ],
-      "value": "label=5 000 kr"
-    }, {
-      "id": "4a95dd5d-52ea-425a-a3f3-105e3b69d222",
-      "comment": "",
-      "command": "click",
-      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
-      "targets": [
-        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
-        ["xpath=//div[2]/div/label/select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "63a0a343-bd48-4f98-a4a9-4823f4c25771",
-      "comment": "",
-      "command": "select",
-      "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
+      "target": "xpath=//div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a",
       "targets": [],
-      "value": "label=30 000 kr"
+      "value": ""
+    }, {
+      "id": "5910ab5b-394c-4d98-81d4-c345a9a76b28",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(3) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0",
+      "targets": [
+        ["css=.Breadcrumb__InlineLi-sc-1ygccid-0:nth-child(3) .TextCallout2__TextCallout2Wrapper-sc-1bir8f0-0", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/div/nav/ol/li[3]/a/div", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div", "xpath:position"]
+      ],
+      "value": "objecttwo"
+    }, {
+      "id": "0470d654-ab56-43cd-a3ac-7f81819a3faa",
+      "comment": "",
+      "command": "verify",
+      "target": "objectone",
+      "targets": [],
+      "value": "${objecttwo}"
     }]
   }, {
     "id": "c1b69079-ebde-4e4e-b495-1df637ad55db",
