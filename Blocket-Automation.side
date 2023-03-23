@@ -551,32 +551,28 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "7d3a3b9f-497c-45be-bc83-ea3dd2e7391d",
+      "id": "8f16e67a-1fc5-4cdc-8dc6-8d4e433c71c3",
       "comment": "",
-      "command": "click",
-      "target": "css=.InfoPage__OptionsButton-sc-ah6b76-16",
-      "targets": [],
+      "command": "doubleClick",
+      "target": "css=.InfoPage__ConsentText-sc-ah6b76-18",
+      "targets": [
+        ["css=.InfoPage__ConsentText-sc-ah6b76-18", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Vi vill också fråga dig om samtycke för följande aktiviteter: Samtycker du till att vi delar data med Facebook och Google för att kunna marknadsföra Blockets tjänster på ett relevant sätt på Facebooks plattformar och inom Googles nätverk?')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
-      "id": "3509ad5a-7804-44af-975b-4e144bfb92c2",
+      "id": "4cfb212d-73e4-4ccb-b5e5-98244999e37f",
       "comment": "",
       "command": "click",
-      "target": "id=no",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "0ae7da54-f1d3-4b3a-81be-4b3796f5d447",
-      "comment": "",
-      "command": "click",
-      "target": "css=.ConsentOptions__OptionSection-sc-ew7mtm-0:nth-child(2) #no",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "8e6afa27-d024-4933-bf51-fae014af0593",
-      "comment": "",
-      "command": "click",
-      "target": "css=.fiDuSU",
-      "targets": [],
+      "target": "id=accept-ufti",
+      "targets": [
+        ["id=accept-ufti", "id"],
+        ["css=#accept-ufti", "css:finder"],
+        ["xpath=//button[@id='accept-ufti']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Jag samtycker')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "3a86835b-2d87-4452-b2e6-4f8dbbb331f7",
