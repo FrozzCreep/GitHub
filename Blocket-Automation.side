@@ -554,7 +554,7 @@
       "id": "46ff33bf-fd53-4a95-9916-765e85a5dbf2",
       "comment": "",
       "command": "click",
-      "target": "id=accept-ufti",
+      "target": "css=accept-ufti",
       "targets": [],
       "value": ""
     }, {
@@ -597,7 +597,7 @@
       "id": "f23c4306-3d8a-49c6-bedd-e084f2adbae4",
       "comment": "",
       "command": "storeText",
-      "target": "xpath=//h2/a",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0",
       "targets": [
         ["linkText=Adria Adora 573PT", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
@@ -611,7 +611,7 @@
       "id": "b1023d24-c1ee-48d7-8875-1704672a155e",
       "comment": "",
       "command": "click",
-      "target": "xpath=//h2/a",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0",
       "targets": [
         ["linkText=Adria Adora 573PT", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
