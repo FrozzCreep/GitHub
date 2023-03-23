@@ -1656,69 +1656,6 @@
       "targets": [],
       "value": "${objecttwo}"
     }]
-  }, {
-    "id": "1941383d-06e6-42fc-96d7-adc565220eee",
-    "name": "window resize",
-    "commands": [{
-      "id": "e6ff8820-7f47-4fd5-aac7-3600f95acffe",
-      "comment": "",
-      "command": "open",
-      "target": "https://www.blocket.se/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "935bf155-8ff9-4d48-b6e9-3d56d40c83d9",
-      "comment": "",
-      "command": "click",
-      "target": "id=accept-ufti",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "388f12e4-c55f-437b-a83c-c9460b7eaac5",
-      "comment": "",
-      "command": "type",
-      "target": "css=.react-autosuggest__input",
-      "targets": [
-        ["css=.react-autosuggest__input", "css:finder"],
-        ["xpath=//input[@value='Oculus quest 1']", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "Oculus quest 32123"
-    }, {
-      "id": "0bcdf6e8-097a-4b68-9a6f-022cfa4ccd92",
-      "comment": "",
-      "command": "click",
-      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
-      "targets": [
-        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div", "xpath:idRelative"],
-        ["xpath=//form/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "01790d2a-5bf3-4630-8550-c6bf50fa051b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.small__StyledButtonText-sc-1gnzteb-4",
-      "targets": [
-        ["css=.small__StyledButtonText-sc-1gnzteb-4", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button/span/div", "xpath:idRelative"],
-        ["xpath=//button/span/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "1f5874c6-11d4-45b7-bf34-569785d0b0ef",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0",
-      "targets": [
-        ["css=.ListResultCountLabel__StyledCaption-sc-qwfcaz-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[3]/div/div/div", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div", "xpath:position"]
-      ],
-      "value": "0 annonser"
-    }]
   }],
   "suites": [{
     "id": "dc8b467a-4445-4fd2-8a73-6b95c2e50d53",
@@ -1726,7 +1663,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["1941383d-06e6-42fc-96d7-adc565220eee"]
+    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
