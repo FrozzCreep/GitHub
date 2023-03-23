@@ -547,14 +547,35 @@
       "id": "b5d23f09-d2a7-4c93-8bcd-99bee784d431",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x800",
+      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
-      "id": "46ff33bf-fd53-4a95-9916-765e85a5dbf2",
+      "id": "7d3a3b9f-497c-45be-bc83-ea3dd2e7391d",
       "comment": "",
       "command": "click",
-      "target": "id=accept-ufti",
+      "target": "css=.InfoPage__OptionsButton-sc-ah6b76-16",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3509ad5a-7804-44af-975b-4e144bfb92c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ConsentOptions__OptionSection-sc-ew7mtm-0:nth-child(1) #no",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae7da54-f1d3-4b3a-81be-4b3796f5d447",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ConsentOptions__OptionSection-sc-ew7mtm-0:nth-child(2) #no",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e6afa27-d024-4933-bf51-fae014af0593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fiDuSU",
       "targets": [],
       "value": ""
     }, {
@@ -573,10 +594,10 @@
       "id": "9770efe3-c8bc-4b6b-ab7f-ac67a03a6015",
       "comment": "",
       "command": "click",
-      "target": "css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
       "targets": [
-        ["css=.TextHeadline1__TextHeadline1Wrapper-sc-1bi3cli-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div", "xpath:idRelative"],
+        ["css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div", "xpath:idRelative"],
         ["xpath=//form/div", "xpath:position"]
       ],
       "value": ""
@@ -588,30 +609,30 @@
       "targets": [
         ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button", "xpath:idRelative"],
-        ["xpath=//div[6]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Hitta annonser')]", "xpath:innerText"]
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
       "id": "f23c4306-3d8a-49c6-bedd-e084f2adbae4",
       "comment": "",
       "command": "storeText",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0",
+      "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Adria Adora 573PT", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annons/skane/adria_adora_573pt/107735940')]", "xpath:href"],
+        ["linkText=Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[6]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skaraborg/skoda_superb_2_0_tdi_4x4_dsg_l_k_euro6_190hk/107736559')]", "xpath:href"],
         ["xpath=//h2/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Adria Adora 573PT')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk')]", "xpath:innerText"]
       ],
       "value": "objectone"
     }, {
       "id": "b1023d24-c1ee-48d7-8875-1704672a155e",
       "comment": "",
       "command": "click",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0",
+      "target": "xpath=//h2/a",
       "targets": [
         ["linkText=Adria Adora 573PT", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
@@ -628,9 +649,9 @@
       "target": "css=.Hero__StyledSubject-sc-1mjgwl-4",
       "targets": [
         ["css=.Hero__StyledSubject-sc-1mjgwl-4", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[2]/div[2]/div/div/article/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/article/div/div[2]/h1", "xpath:idRelative"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Adria Adora 573PT')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Skoda Superb 2.0 TDI 4x4 DSG L&K Euro6 190hk')]", "xpath:innerText"]
       ],
       "value": "objecttwo"
     }, {
