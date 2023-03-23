@@ -1716,13 +1716,12 @@
       "id": "d2e8e9d1-4530-443a-945b-73f8c28ba758",
       "comment": "",
       "command": "storeText",
-      "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0",
+      "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
       "targets": [
-        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
-        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button", "xpath:idRelative"],
-        ["xpath=//div[3]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Företag')]", "xpath:innerText"]
+        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Företag')]", "xpath:innerText"]
       ],
       "value": "objectone"
     }, {
