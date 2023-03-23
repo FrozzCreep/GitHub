@@ -1510,7 +1510,7 @@
     }]
   }, {
     "id": "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a",
-    "name": "No results",
+    "name": "Windows resizing (pass)",
     "commands": [{
       "id": "24500c12-c911-4bab-87e9-fff3fcb1e2a5",
       "comment": "",
@@ -1663,7 +1663,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
