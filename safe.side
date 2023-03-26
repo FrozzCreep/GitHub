@@ -797,7 +797,7 @@
       "id": "6ca76a12-f359-402d-b0cd-5e7ffbf2e9d4",
       "comment": "",
       "command": "click",
-      "target": "xpath=//p/a",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
       "targets": [
         ["linkText=Skåne", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
@@ -812,14 +812,14 @@
       "id": "f432a891-de70-4fdd-882b-163a73701e39",
       "comment": "",
       "command": "waitForElementPresent",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
       "targets": [
         ["linkText=Staffanstorp", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)", "css:finder"],
         ["xpath=//a[contains(text(),'Staffanstorp')]", "xpath:link"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane?m=280&q=Husvagn%20staffanstorp&r=23')]", "xpath:href"],
-        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane?m=280&q=husvagn%20staffanstorp&r=23')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
         ["xpath=//a[contains(.,'Staffanstorp')]", "xpath:innerText"]
       ],
       "value": "30000"
@@ -827,7 +827,7 @@
       "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
       "comment": "",
       "command": "storeText",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
       "targets": [
         ["linkText=Staffanstorp", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
