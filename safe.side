@@ -763,7 +763,7 @@
       "id": "cd38ece6-e859-4d39-a0a3-6f1ac3eee828",
       "comment": "",
       "command": "store",
-      "target": "Staffanstorp",
+      "target": "Staffanstorp (hitta.se)",
       "targets": [],
       "value": "objectone"
     }, {
@@ -797,45 +797,28 @@
       "id": "6ca76a12-f359-402d-b0cd-5e7ffbf2e9d4",
       "comment": "",
       "command": "click",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
+      "target": "xpath=//h2/a",
       "targets": [
-        ["linkText=Skåne", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//a[contains(text(),'Skåne')]", "xpath:link"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane?q=Husvagn%20staffanstorp&r=23')]", "xpath:href"],
-        ["xpath=//p/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Skåne')]", "xpath:innerText"]
+        ["linkText=Tabbert Da Vinci 540, Barnkammare, 6 bäddar", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__SubjectWrapper-sc-1kpvi4z-15 .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annons/skane/tabbert_da_vinci_540__barnkammare__6_baddar/107826336')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabbert Da Vinci 540, Barnkammare, 6 bäddar')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "f432a891-de70-4fdd-882b-163a73701e39",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
-      "targets": [
-        ["linkText=Staffanstorp", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'Staffanstorp')]", "xpath:link"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a[2]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane?m=280&q=husvagn%20staffanstorp&r=23')]", "xpath:href"],
-        ["xpath=//a[2]", "xpath:position"],
-        ["xpath=//a[contains(.,'Staffanstorp')]", "xpath:innerText"]
-      ],
-      "value": "30000"
     }, {
       "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
       "comment": "",
       "command": "storeText",
-      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .Link-sc-6wulv7-0:nth-child(2)",
+      "target": "xpath=//span/a",
       "targets": [
-        ["linkText=Staffanstorp", "linkText"],
-        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//a[contains(text(),'Staffanstorp')]", "xpath:link"],
-        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane?m=280&q=Husvagn%20staffanstorp&r=23')]", "xpath:href"],
-        ["xpath=//p/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Staffanstorp')]", "xpath:innerText"]
+        ["linkText=Staffanstorp (hitta.se)", "linkText"],
+        ["css=.LocationInfo__StyledMapLink-sc-1op511s-3", "css:finder"],
+        ["xpath=//div[@id='skip-tabbar']/div[2]/div[2]/div/div/article/div/div[2]/div/div/div[2]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.hitta.se/kartan/partner/blocketv2?ad_id=107826336')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Staffanstorp (hitta.se)')]", "xpath:innerText"]
       ],
       "value": "objecttwo"
     }, {
@@ -1761,7 +1744,7 @@
       "command": "waitForElementPresent",
       "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
       "targets": [],
-      "value": "30000"
+      "value": "10000"
     }, {
       "id": "9500710a-8af4-4d7d-938c-03a726ecb7b6",
       "comment": "",
