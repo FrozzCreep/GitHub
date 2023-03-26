@@ -725,7 +725,7 @@
     }]
   }, {
     "id": "c1b69079-ebde-4e4e-b495-1df637ad55db",
-    "name": "Price - From & To (invalid value)",
+    "name": "Search with city",
     "commands": [{
       "id": "e984bfd5-16db-455d-b8bf-5105ab8afd2f",
       "comment": "",
@@ -758,7 +758,14 @@
         ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Husvagn"
+      "value": "Husvagn staffanstorp"
+    }, {
+      "id": "cd38ece6-e859-4d39-a0a3-6f1ac3eee828",
+      "comment": "",
+      "command": "store",
+      "target": "Staffanstorp",
+      "targets": [],
+      "value": "objectone"
     }, {
       "id": "d7871738-6fd9-4a20-8ba6-292dd8911d99",
       "comment": "",
@@ -787,33 +794,27 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "11324f15-7970-4a3b-851d-2ad0230321dc",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//li/a",
-      "targets": [
-        ["linkText=Husvagnar & husbilar (1 025)", "linkText"],
-        ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=Husvagn&r=23')]", "xpath:href"],
-        ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (1 025)')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "c112cdb8-bbab-45f4-bc28-c6ce338f0b68",
-      "comment": "",
-      "command": "select",
-      "target": "xpath=//select",
-      "targets": [],
-      "value": "label=5 000 kr"
-    }, {
       "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
       "comment": "",
-      "command": "assertSelectedLabel",
-      "target": "xpath=//select",
+      "command": "storeText",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0",
+      "targets": [
+        ["linkText=Staffanstorp", "linkText"],
+        ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
+        ["xpath=//a[contains(text(),'Staffanstorp')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div[3]/div/div/article/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&m=280&q=Husvagn%20staffanstorp&r=23')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Staffanstorp')]", "xpath:innerText"]
+      ],
+      "value": "objecttwo"
+    }, {
+      "id": "fd24a98c-9ad8-46ce-bac6-d2d456f5ee3f",
+      "comment": "",
+      "command": "verify",
+      "target": "objectone",
       "targets": [],
-      "value": "label=5 000 kr"
+      "value": "${objecttwo}"
     }]
   }, {
     "id": "805dedad-3bb5-4c07-9225-1efd9aaac636",
