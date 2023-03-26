@@ -807,6 +807,13 @@
       "target": "xpath=//select",
       "targets": [],
       "value": "label=5 000 kr"
+    }, {
+      "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
+      "comment": "",
+      "command": "assertSelectedLabel",
+      "target": "xpath=//select",
+      "targets": [],
+      "value": "label=5 000 kr"
     }]
   }, {
     "id": "805dedad-3bb5-4c07-9225-1efd9aaac636",
