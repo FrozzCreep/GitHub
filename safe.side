@@ -809,10 +809,17 @@
       ],
       "value": ""
     }, {
+      "id": "f432a891-de70-4fdd-882b-163a73701e39",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
       "comment": "",
       "command": "storeText",
-      "target": "xpath=//p/a",
+      "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
       "targets": [
         ["linkText=Staffanstorp", "linkText"],
         ["css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0", "css:finder"],
@@ -1741,14 +1748,21 @@
       ],
       "value": ""
     }, {
+      "id": "4c3b0b9a-fa4a-4f6a-a3a6-eba706735bb8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "9500710a-8af4-4d7d-938c-03a726ecb7b6",
       "comment": "",
       "command": "storeText",
       "target": "css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)",
       "targets": [
         ["css=.styled__CompanyLabel-sc-1f8y0be-10:nth-child(2)", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[2]/div[2]/div/div/article/div/div[2]/div[5]/div/div[2]/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[5]/div/div[2]/div/div[2]", "xpath:position"]
+        ["xpath=//div[@id='skip-tabbar']/div[2]/div[2]/div/div/article/div/div[2]/div[8]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/div/div[2]", "xpath:position"]
       ],
       "value": "objecttwo"
     }, {
