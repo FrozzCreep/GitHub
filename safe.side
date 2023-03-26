@@ -734,52 +734,74 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "edb81e5f-9179-4fd8-a964-2de1656cd021",
+      "id": "0dc2d1d9-147f-4744-bc0b-a77671f40ac5",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1000x900",
+      "target": "700x700",
       "targets": [],
       "value": ""
     }, {
-      "id": "d039d077-dcb4-4a19-8d95-32cb44d85ab6",
+      "id": "359cfa59-71c3-4c87-a041-7b32c3e23c2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-ufti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3332a61c-99fd-447f-95f4-af99f6652b22",
       "comment": "",
       "command": "type",
       "target": "css=.react-autosuggest__input",
       "targets": [
         ["css=.react-autosuggest__input", "css:finder"],
-        ["xpath=//input[@value='husvagn']", "xpath:attributes"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input[@value='Husvagn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "husvagn"
+      "value": "Husvagn"
     }, {
-      "id": "62fab1f5-d3f0-42cc-99d0-f14d242b2160",
+      "id": "d7871738-6fd9-4a20-8ba6-292dd8911d99",
       "comment": "",
       "command": "click",
-      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "target": "css=.TextSubHeading__TextSubHeadingWrapper-sc-1c6hp2-0",
       "targets": [
-        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/form/div[6]/button/span", "xpath:idRelative"],
-        ["xpath=//div[6]/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Hitta annonser')]", "xpath:innerText"]
+        ["css=.Buttonstyles__BaseButton-sc-pchbnd-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sök')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "9470792b-4d61-428b-a521-3a1035cba154",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttonstyles__BaseButton-sc-pchbnd-0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9ddb381-f569-4ee8-9453-d9c214e71eb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x1000",
+      "targets": [],
       "value": ""
     }, {
       "id": "11324f15-7970-4a3b-851d-2ad0230321dc",
       "comment": "",
       "command": "click",
-      "target": "linkText=Husvagnar & husbilar (238)",
+      "target": "xpath=//li/a",
       "targets": [
-        ["linkText=Husvagnar & husbilar (238)", "linkText"],
+        ["linkText=Husvagnar & husbilar (1 025)", "linkText"],
         ["css=.TextCallout1__TextCallout1Wrapper-sc-swd73-0:nth-child(1) > .Link-sc-6wulv7-0", "css:finder"],
         ["xpath=//div[@id='skip-tabbar']/div[3]/div/ul/li/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/annonser/kalmar/fordon/husvagnar_husbilar?cg=1100&q=husvagn&r=18')]", "xpath:href"],
+        ["xpath=//a[contains(@href, '/annonser/skane/fordon/husvagnar_husbilar?cg=1100&q=Husvagn&r=23')]", "xpath:href"],
         ["xpath=//li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Husvagnar & husbilar (238)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Husvagnar & husbilar (1 025)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "0a378cc1-3381-41d3-a4eb-eddfdaef5bb1",
+      "id": "c112cdb8-bbab-45f4-bc28-c6ce338f0b68",
       "comment": "",
       "command": "click",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
@@ -790,37 +812,30 @@
       ],
       "value": ""
     }, {
-      "id": "73ced9d7-5bbf-46d5-b099-c5ed194e11c4",
+      "id": "9f78e98a-34fe-44f8-a7e6-1bcc951563fc",
       "comment": "",
       "command": "select",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1",
       "targets": [],
-      "value": "label=0 kr"
+      "value": "label=5 000 kr"
     }, {
-      "id": "d8dc0dfb-2424-43fd-b692-35915bde2031",
+      "id": "89eeb7dd-b138-40b2-a733-32ee9261e1de",
       "comment": "",
       "command": "click",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
       "targets": [
         ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
+        ["xpath=//div[@id='skip-tabbar']/div[3]/div/div[2]/div/fieldset/div[2]/div/label/select", "xpath:idRelative"],
         ["xpath=//div[2]/div/label/select", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "7e24b636-c93f-4ed6-abd9-d5fcc98e03dc",
+      "id": "0062b59a-8ffc-42c3-b3e1-c0962d1e0adb",
       "comment": "",
       "command": "select",
       "target": "css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(3) .Dropdown__Select-sc-d8v465-1",
       "targets": [],
-      "value": "label=30 000 kr"
-    }, {
-      "id": "d1fef1ba-1550-4fd7-922d-a4afc2b8dae7",
-      "comment": "",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
+      "value": "label=10 000 kr"
     }]
   }, {
     "id": "805dedad-3bb5-4c07-9225-1efd9aaac636",
@@ -1678,7 +1693,7 @@
       "id": "b6e04d9c-207a-4062-98a6-4eaeacb68005",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1100x1100",
+      "target": "1000x1000",
       "targets": [],
       "value": ""
     }, {
@@ -1693,6 +1708,18 @@
         ["xpath=//span[contains(.,'Företag')]", "xpath:innerText"]
       ],
       "value": "objectone"
+    }, {
+      "id": "6e5736f8-673f-4937-b78d-4e2a9f21cfd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3",
+      "targets": [
+        ["css=div:nth-child(3) > .Buttonstyles__BaseButton-sc-pchbnd-0 > .Buttonstyles__ChildrenWrapper-sc-pchbnd-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Företag')]", "xpath:innerText"]
+      ],
+      "value": ""
     }, {
       "id": "7c073394-7201-46a6-879f-6e9374338877",
       "comment": "",
@@ -1745,7 +1772,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "0fe5413a-3adf-4c95-9b97-6a5b39bcc08a", "dc983b9b-69c1-4a4f-b8c3-513626738912", "90d0f068-e54b-4f0b-b898-4e2e3547dc10", "e28ef9df-8d10-4a34-ae73-944408bc3f48"]
+    "tests": ["812b0afb-ae85-4901-a43c-5b95bb467677", "dc983b9b-69c1-4a4f-b8c3-513626738912", "90d0f068-e54b-4f0b-b898-4e2e3547dc10", "e28ef9df-8d10-4a34-ae73-944408bc3f48", "c1b69079-ebde-4e4e-b495-1df637ad55db"]
   }],
   "urls": ["https://www.blocket.se/"],
   "plugins": []
