@@ -794,6 +794,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "6ca76a12-f359-402d-b0cd-5e7ffbf2e9d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-1kpvi4z-0:nth-child(1) .styled__LocationTimeWrapper-sc-1kpvi4z-20 .Link-sc-6wulv7-0",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "c9f2b103-09bd-4141-9c77-9db58a84e2f8",
       "comment": "",
       "command": "storeText",
