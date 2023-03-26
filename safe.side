@@ -801,17 +801,6 @@
       ],
       "value": ""
     }, {
-      "id": "8a09398c-1d73-4e8c-a57b-9f0a180bd344",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//select",
-      "targets": [
-        ["css=.TextBody__TextBodyWrapper-sc-cuv1ht-0:nth-child(2) .Dropdown__Select-sc-d8v465-1", "css:finder"],
-        ["xpath=//div[@id='skip-tabbar']/div[3]/div[2]/div[2]/div/fieldset/div/div/label/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "c112cdb8-bbab-45f4-bc28-c6ce338f0b68",
       "comment": "",
       "command": "select",
